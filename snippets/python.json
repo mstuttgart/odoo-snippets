@@ -1,1 +1,35 @@
-{}
+{
+    "odoo manifest": {
+        "prefix": "oman",
+        "body": [
+            "{",
+            "\t'name': '${1}',",
+            "\t'version': '${2:11.0.1.0.0}',",
+            "\t'summary': '${3:}',",
+            "\t'category': '${4:}',",
+            "\t'author': '${5:}',",
+            "\t'maintainer': '${5:}',",
+            "\t'website': '${6:}',",
+            "\t'license': '${7:}',",
+            "\t'contributors': [",
+            "\t\t'${8:}',",
+            "\t],",
+            "\t'depends': [",
+            "\t\t'${9:}',",
+            "\t],",
+            "\t'external_dependencies': {",
+            "\t\t'python': [",
+            "\t\t\t'${10:}',",
+            "\t\t],",
+            "\t},",
+            "\t'data': [",
+            "\t\t'${11:}',",
+            "\t],",
+            "\t'installable': ${12:True},",
+            "\t'auto_install': ${13:False},",
+            "\t'application': ${14:False},",
+            "}"
+        ],
+        "description": "Create Odoo Manifest"
+    }
+}
