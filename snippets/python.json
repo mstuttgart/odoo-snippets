@@ -41,5 +41,14 @@
             "\n\tname = fields.Char(string='Name')"
         ],
         "description": "Create New Odoo Model"
+    },
+    "odoo inherit model": {
+        "prefix": "omdi",
+        "body": [
+            "class ${1:ModuleName}(models.Model):",
+            "\t_inherit = '${2:module.name}'",
+            "\n\tname = fields.Char(string='Name')"
+        ],
+        "description": "Inherit Existing Odoo Model"
     }
 }
