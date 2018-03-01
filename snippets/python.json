@@ -31,5 +31,15 @@
             "}"
         ],
         "description": "Create Odoo Manifest"
+    },
+    "odoo new model": {
+        "prefix": "omd",
+        "body": [
+            "class ${1:ModuleName}(models.Model):",
+            "\t_name = '${2:modele.name}'",
+            "\t_description = '${3:New Description}'",
+            "\n\tname = fields.Char(string='Name')"
+        ],
+        "description": "Create New Odoo Model"
     }
 }
