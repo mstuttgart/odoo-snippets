@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Project files
+.vscode
+vsc-extension-quickstart.md
+zumby.py
+zumby.xml
