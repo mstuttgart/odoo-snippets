@@ -1,0 +1,21 @@
+{
+    "name": "odoo-snippets",
+    "displayName": "Odoo Snippets",
+    "description": "This snippets can help you to develop Odoo modules faster and with no Typing Errors.",
+    "version": "0.0.1",
+    "publisher": "mstuttgart",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
