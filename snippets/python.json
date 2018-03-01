@@ -50,5 +50,14 @@
             "\n\tname = fields.Char(string='Name')"
         ],
         "description": "Inherit Existing Odoo Model"
+    },
+    "odoo test model": {
+        "prefix": "omdt",
+        "body": [
+            "class Test${1:ModuleName}(TransactionCase):",
+            "\n\tdef setUp(self):",
+            "\t\tsuper(Test${1:ModuleName}, self).setUp()"
+        ],
+        "description": "Test Existing Odoo Model"
     }
 }
