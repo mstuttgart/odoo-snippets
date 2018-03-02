@@ -40,12 +40,12 @@ Below is a list of all available snippets.
 | `oftime`  | Add new field of type DateTime  |
 | `offloat` | Add new field of type Float     |
 | `ofhtml`  | Add new field of type HTML      |
-| `offint`  | Add new field of type Integer   |
-| `offitxt` | Add new field of type Text      |
-| `offsel`  | Add new field of type Selection |
-| `offmo`   | Add new field of type Many2one  |
-| `offmm`   | Add new field of type Many2many |
-| `offom`   | Add new field of type One2many  |
+| `ofint`   | Add new field of type Integer   |
+| `oftxt`   | Add new field of type Text      |
+| `ofsel`   | Add new field of type Selection |
+| `ofmo`    | Add new field of type Many2one  |
+| `ofmm`    | Add new field of type Many2many |
+| `ofom`    | Add new field of type One2many  |
 
 ## Credits
 
