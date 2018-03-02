@@ -1,29 +1,29 @@
 {
-    "odoo manifest": {
+    "odoo_manifest": {
         "prefix": "oman",
         "body": [
             "{",
             "\t'name': '${1}',",
             "\t'version': '${2:11.0.1.0.0}',",
-            "\t'summary': '${3:}',",
-            "\t'category': '${4:}',",
-            "\t'author': '${5:}',",
-            "\t'maintainer': '${5:}',",
-            "\t'website': '${6:}',",
-            "\t'license': '${7:}',",
+            "\t'summary': '${3}',",
+            "\t'category': '${4}',",
+            "\t'author': '${5}',",
+            "\t'maintainer': '${5}',",
+            "\t'website': '${6}',",
+            "\t'license': '${7}',",
             "\t'contributors': [",
-            "\t\t'${8:}',",
+            "\t\t'${8}',",
             "\t],",
             "\t'depends': [",
-            "\t\t'${9:}',",
+            "\t\t'${9}',",
             "\t],",
             "\t'external_dependencies': {",
             "\t\t'python': [",
-            "\t\t\t'${10:}',",
+            "\t\t\t'${10}',",
             "\t\t],",
             "\t},",
             "\t'data': [",
-            "\t\t'${11:}',",
+            "\t\t'${11}',",
             "\t],",
             "\t'installable': ${12:True},",
             "\t'auto_install': ${13:False},",
@@ -32,32 +32,126 @@
         ],
         "description": "Create Odoo Manifest"
     },
-    "odoo new model": {
+    "odoo_new_model": {
         "prefix": "omd",
         "body": [
-            "class ${1:ModuleName}(models.Model):",
+            "from odoo import api, fields, models",
+            "\n\nclass ${1:ModuleName}(models.Model):",
             "\t_name = '${2:modele.name}'",
             "\t_description = '${3:New Description}'",
             "\n\tname = fields.Char(string='Name')"
         ],
         "description": "Create New Odoo Model"
     },
-    "odoo inherit model": {
+    "odoo_inherit_model": {
         "prefix": "omdi",
         "body": [
-            "class ${1:ModuleName}(models.Model):",
+            "from odoo import api, fields, models",
+            "\n\nclass ${1:ModuleName}(models.Model):",
             "\t_inherit = '${2:module.name}'",
             "\n\tname = fields.Char(string='Name')"
         ],
         "description": "Inherit Existing Odoo Model"
     },
-    "odoo test model": {
+    "odoo_test_model": {
         "prefix": "omdt",
         "body": [
-            "class Test${1:ModuleName}(TransactionCase):",
+            "from odoo.tests.common import TransactionCase",
+            "\n\nclass Test${1:ModuleName}(TransactionCase):",
             "\n\tdef setUp(self):",
             "\t\tsuper(Test${1:ModuleName}, self).setUp()"
         ],
-        "description": "Test Existing Odoo Model"
+        "description": "Add Test Class to Odoo Model"
+    },
+    "odoo_field_binary": {
+        "prefix": "ofbin",
+        "body": [
+            "${1:new_field} = fields.Binary(string='${2}')"
+        ],
+        "description": "Add new field of type Binary"
+    },
+    "odoo_field_boolean": {
+        "prefix": "ofbool",
+        "body": [
+            "${1:new_field} = fields.Boolean(string='${2}')"
+        ],
+        "description": "Add new field of type Boolean"
+    },
+    "odoo_field_char": {
+        "prefix": "ofchar",
+        "body": [
+            "${1:new_field} = fields.Char(string='${2}', required=${3:False})"
+        ],
+        "description": "Add new field of type Char"
+    },
+    "odoo_field_date": {
+        "prefix": "ofdate",
+        "body": [
+            "${1:new_field} = fields.Date(string='${2}', required=${3:False})"
+        ],
+        "description": "Add new field of type Date"
+    },
+    "odoo_field_datetime": {
+        "prefix": "oftime",
+        "body": [
+            "${1:new_field} = fields.Datetime(string='${2}', required=${3:False})"
+        ],
+        "description": "Add new field of type DateTime"
+    },
+    "odoo_field_float": {
+        "prefix": "offloat",
+        "body": [
+            "${1:new_field} = fields.Float(string='${2}', required=${3:False})"
+        ],
+        "description": "Add new field of type Float"
+    },
+    "odoo_field_html": {
+        "prefix": "ofhtml",
+        "body": [
+            "${1:new_field} = fields.HTML(string='${2}')"
+        ],
+        "description": "Add new field of type HTML"
+    },
+    "odoo_field_int": {
+        "prefix": "offint",
+        "body": [
+            "${1:new_field} = fields.Integer(string='${2}', required=${3:False})"
+        ],
+        "description": "Add new field of type Integer"
+    },
+    "odoo_field_text": {
+        "prefix": "offitxt",
+        "body": [
+            "${1:new_field} = fields.Integer(string='${2}', required=${3:False})"
+        ],
+        "description": "Add new field of type Text"
+    },
+    "odoo_field_selection": {
+        "prefix": "offsel",
+        "body": [
+            "${1:new_field} = fields.Integer(string='${1}', required=${2:False}, selection=[('${3}', '${4}'), ('${5}', '${6}'), ])"
+        ],
+        "description": "Add new field of type Selection"
+    },
+    "odoo_field_many2one": {
+        "prefix": "offmo",
+        "body": [
+            "${1:new_field} = fields.Many2one(comodel_name='{2}', string='${3}', required=${4:False})"
+        ],
+        "description": "Add new field of type Many2one"
+    },
+    "odoo_field_many2many": {
+        "prefix": "offmm",
+        "body": [
+            "${1:new_field} = fields.Many2many(comodel_name='{2}', string='${3}')"
+        ],
+        "description": "Add new field of type Many2many"
+    },
+    "odoo_field_one2many": {
+        "prefix": "offom",
+        "body": [
+            "${1:new_field} = fields.One2many(comodel_name='{2}', inverse_name='${3}', string='${4}', required=${5:False})"
+        ],
+        "description": "Add new field of type One2many"
     }
 }
