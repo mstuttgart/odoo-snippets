@@ -1,0 +1,21 @@
+{
+    "odoo_form": {
+        "prefix": "oform",
+        "body": [
+            "<record id=\"${1}\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${2}</field>",
+            "\t<field name=\"model\">${3}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<form string=\"${4}\">",
+            "\t\t\t<sheet>",
+            "\t\t\t\t<group>",
+            "\t\t\t\t\t<field name=\"${0}\"/>",
+            "\t\t\t\t</group>",
+            "\t\t\t</sheet>",
+            "\t\t</form>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Create Form View"
+    }
+}
