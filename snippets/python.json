@@ -136,21 +136,21 @@
     "odoo_field_many2one": {
         "prefix": "offmo",
         "body": [
-            "${1:new_field} = fields.Many2one(comodel_name='{2}', string='${3}', required=${4:False})"
+            "${1:new_field} = fields.Many2one(comodel_name='${2}', string='${3}', required=${4:False})"
         ],
         "description": "Add new field of type Many2one"
     },
     "odoo_field_many2many": {
         "prefix": "offmm",
         "body": [
-            "${1:new_field} = fields.Many2many(comodel_name='{2}', string='${3}')"
+            "${1:new_field} = fields.Many2many(comodel_name='${2}', string='${3}')"
         ],
         "description": "Add new field of type Many2many"
     },
     "odoo_field_one2many": {
         "prefix": "offom",
         "body": [
-            "${1:new_field} = fields.One2many(comodel_name='{2}', inverse_name='${3}', string='${4}', required=${5:False})"
+            "${1:new_field} = fields.One2many(comodel_name='${2}', inverse_name='${3}', string='${4}', required=${5:False})"
         ],
         "description": "Add new field of type One2many"
     }
