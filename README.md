@@ -28,24 +28,24 @@ Below is a list of all available snippets.
 
 ### Python Snippets
 
-| Snippet | Description                     |
-|:--------|:--------------------------------|
-| oman    | Create Odoo Manifest            |
-| omd     | Create New Odoo Model           |
-| omdi    | Inherit Existing Odoo Model     |
-| ofbin   | Add new field of type Binary    |
-| ofbool  | Add new field of type Boolean   |
-| ofchar  | Add new field of type Char      |
-| ofdate  | Add new field of type Date      |
-| oftime  | Add new field of type DateTime  |
-| offloat | Add new field of type Float     |
-| ofhtml  | Add new field of type HTML      |
-| offint  | Add new field of type Integer   |
-| offitxt | Add new field of type Text      |
-| offsel  | Add new field of type Selection |
-| offmo   | Add new field of type Many2one  |
-| offmm   | Add new field of type Many2many |
-| offom   | Add new field of type One2many  |
+| Snippet   | Description                     |
+|:----------|:--------------------------------|
+| `oman`    | Create Odoo Manifest            |
+| `omd`     | Create New Odoo Model           |
+| `omdi`    | Inherit Existing Odoo Model     |
+| `ofbin`   | Add new field of type Binary    |
+| `ofbool`  | Add new field of type Boolean   |
+| `ofchar`  | Add new field of type Char      |
+| `ofdate`  | Add new field of type Date      |
+| `oftime`  | Add new field of type DateTime  |
+| `offloat` | Add new field of type Float     |
+| `ofhtml`  | Add new field of type HTML      |
+| `offint`  | Add new field of type Integer   |
+| `offitxt` | Add new field of type Text      |
+| `offsel`  | Add new field of type Selection |
+| `offmo`   | Add new field of type Many2one  |
+| `offmm`   | Add new field of type Many2many |
+| `offom`   | Add new field of type One2many  |
 
 ## Credits
 
