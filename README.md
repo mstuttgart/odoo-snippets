@@ -48,6 +48,15 @@ Below is a list of all available snippets.
 | `ofm2m`   | Add new field of type Many2many |
 | `ofo2m`   | Add new field of type One2many  |
 
+### XML Snippets
+
+| Snippet  | Description                |
+| -------- | -------------------------- |
+| `oform`  | Create Form View           |
+| `oformi` | Inherit Existing Form View |
+| `otree`  | Create Tree View           |
+| `otreei` | Inherit Existing Tree View |
+
 ## Credits
 
 This snippets are based in [odoo-pycharm-templates](https://github.com/mohamedmagdy/odoo-pycharm-templates) project.
