@@ -2,7 +2,7 @@
     "name": "odoo-snippets",
     "displayName": "Odoo Code Snippets",
     "description": "This snippets can help you to develop Odoo modules faster and with no Typing Errors.",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "license": "SEE LICENSE IN LICENSE",
     "publisher": "mstuttgart",
     "author": {
@@ -19,12 +19,12 @@
     "categories": [
         "Snippets"
     ],
-     "keywords": [
-         "odoo",
-         "snippets",
-         "python",
-         "xml"
-     ],
+    "keywords": [
+        "odoo",
+        "snippets",
+        "python",
+        "xml"
+    ],
     "bugs": {
         "url": "https://github.com/mstuttgart/odoo-vscode-snippets/issues",
         "email": "michellstut@gmail.com"
@@ -34,11 +34,9 @@
         "url": "https://github.com/mstuttgart/odoo-vscode-snippets"
     },
     "contributes": {
-        "snippets": [
-            {
-                "language": "python",
-                "path": "./snippets/python.json"
-            }
-        ]
+        "snippets": [{
+            "language": "python",
+            "path": "./snippets/python.json"
+        }]
     }
 }
