@@ -33,7 +33,7 @@
         "description": "Create Odoo Manifest"
     },
     "odoo_new_model": {
-        "prefix": "omd",
+        "prefix": "omod",
         "body": [
             "from odoo import api, fields, models",
             "\n\nclass ${1:ModuleName}(models.Model):",
@@ -44,7 +44,7 @@
         "description": "Create New Odoo Model"
     },
     "odoo_inherit_model": {
-        "prefix": "omdi",
+        "prefix": "omodi",
         "body": [
             "from odoo import api, fields, models",
             "\n\nclass ${1:ModuleName}(models.Model):",
@@ -54,7 +54,7 @@
         "description": "Inherit Existing Odoo Model"
     },
     "odoo_test_model": {
-        "prefix": "omdt",
+        "prefix": "omodt",
         "body": [
             "from odoo.tests.common import TransactionCase",
             "\n\nclass Test${1:ModuleName}(TransactionCase):",
