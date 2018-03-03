@@ -56,6 +56,7 @@ Below is a list of all available snippets.
 | `oformi` | Inherit Existing Form View |
 | `otree`  | Create Tree View           |
 | `otreei` | Inherit Existing Tree View |
+| `oxpath` | Add the structure of xpath |
 
 ## Credits
 
