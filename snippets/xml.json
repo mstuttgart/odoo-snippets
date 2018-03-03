@@ -2,14 +2,16 @@
     "odoo_form": {
         "prefix": "oform",
         "body": [
-            "<record id=\"${1}\" model=\"ir.ui.view\">",
-            "\t<field name=\"name\">${2}</field>",
-            "\t<field name=\"model\">${3}</field>",
+            "<!-- ${1:model.name} form view -->",
+            "<record id=\"${2:model_name}_view_form\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${1:model.name}.view.form</field>",
+            "\t<field name=\"model\">${1:model.name}</field>",
             "\t<field name=\"arch\" type=\"xml\">",
-            "\t\t<form string=\"${4}\">",
+            "\t\t<form string=\"${3}\">",
             "\t\t\t<sheet>",
             "\t\t\t\t<group>",
-            "\t\t\t\t\t<field name=\"${0}\"/>",
+            "\t\t\t\t\t<field name=\"${4:name}\"/>",
+            "\t\t\t\t\t$0",
             "\t\t\t\t</group>",
             "\t\t\t</sheet>",
             "\t\t</form>",
@@ -17,5 +19,60 @@
             "</record>"
         ],
         "description": "Create Form View"
+    },
+    "odoo_form_inherit": {
+        "prefix": "oformi",
+        "body": [
+            "<!-- ${1:model.name} inherit form view -->",
+            "<record id=\"${2:view_id}\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${1:model.name}.inherit.view.form</field>",
+            "\t<field name=\"model\">${1:model.name}</field>",
+            "\t<field name=\"inherit_id\" ref=\"${3:base_module}.${2:view_id}\"/>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<xpath expr=\"//field[@name='${4:name}']\" position=\"${5:after}\">",
+            "\t\t\t<!-- Add your fields or attributes here -->",
+            "\t\t\t$0",
+            "\t\t</xpath>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Inherit Existing Form View"
+    },
+    "odoo_tree": {
+        "prefix": "otree",
+        "body": [
+            "<!-- ${1:model.name} tree view -->",
+            "<record id=\"${2:model_name}_view_tree\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${1:first.name}.view.tree</field>",
+            "\t<field name=\"model\">${1:first.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<tree>",
+            "\t\t\t<field name=\"${3:name}\"/>",
+            "\t\t\t$0",
+            "\t\t</tree>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Create Tree View"
+    },
+    "odoo_tree_inherit": {
+        "prefix": "otreei",
+        "body": [
+            "<!-- ${1:model.name} inherit tree view -->",
+            "<record id=\"${2:view_id}\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${1:model.name}.inherit.view.form</field>",
+            "\t<field name=\"model\">${1:model.name}</field>",
+            "\t<field name=\"inherit_id\" ref=\"${3:base_module}.${2:view_id}\"/>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t<sheet>",
+            "\t\t<xpath expr=\"//field[@name='${4:name}']\" position=\"${5:after}\">",
+            "\t\t\t<!-- Add new fields here -->",
+            "\t\t\t$0",
+            "\t\t</xpath>",
+            "\t</sheet>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Inherit Existing Tree View"
     }
 }
