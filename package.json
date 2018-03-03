@@ -22,7 +22,8 @@
      "keywords": [
          "odoo",
          "snippets",
-         "python"
+         "python",
+         "xml"
      ],
     "bugs": {
         "url": "https://github.com/mstuttgart/odoo-vscode-snippets/issues",
