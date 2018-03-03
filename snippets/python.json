@@ -37,7 +37,7 @@
         "body": [
             "from odoo import api, fields, models",
             "\n\nclass ${1:ModuleName}(models.Model):",
-            "\t_name = '${2:modele.name}'",
+            "\t_name = '${2:module.name}'",
             "\t_description = '${3:New Description}'",
             "\n\tname = fields.Char(string='Name')"
         ],
