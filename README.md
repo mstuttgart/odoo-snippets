@@ -29,10 +29,11 @@ Below is a list of all available snippets.
 ### Python Snippets
 
 | Snippet   | Description                     |
-|:----------|:--------------------------------|
+| :-------- | :------------------------------ |
 | `oman`    | Create Odoo Manifest            |
-| `omd`     | Create New Odoo Model           |
-| `omdi`    | Inherit Existing Odoo Model     |
+| `omod`    | Create New Odoo Model           |
+| `omodi`   | Inherit Existing Odoo Model     |
+| `omodt`   | Create Test to Odoo Model       |
 | `ofbin`   | Add new field of type Binary    |
 | `ofbool`  | Add new field of type Boolean   |
 | `ofchar`  | Add new field of type Char      |
@@ -43,9 +44,9 @@ Below is a list of all available snippets.
 | `ofint`   | Add new field of type Integer   |
 | `oftxt`   | Add new field of type Text      |
 | `ofsel`   | Add new field of type Selection |
-| `ofmo`    | Add new field of type Many2one  |
-| `ofmm`    | Add new field of type Many2many |
-| `ofom`    | Add new field of type One2many  |
+| `ofm2o`   | Add new field of type Many2one  |
+| `ofm2m`   | Add new field of type Many2many |
+| `ofo2m`   | Add new field of type One2many  |
 
 ## Credits
 
