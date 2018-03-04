@@ -35,8 +35,13 @@
     },
     "contributes": {
         "snippets": [{
-            "language": "python",
-            "path": "./snippets/python.json"
-        }]
+                "language": "python",
+                "path": "./snippets/python.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/xml.json"
+            }
+        ]
     }
 }
