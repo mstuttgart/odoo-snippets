@@ -1,11 +1,13 @@
 # Change Log
 
+## 0.2.1
+- Add new line in all Python snippets;
+
 ## 0.2.0
 
 - New Form (new and inherit) XML snippets;
 - New Tree (new and inherit) XML snippets;
 - New Xpath XML snippet.
-- Add new line in all Python snippets;
 - Improve snippets name of model and relational fields;
 - Fices in fields parameters.
 
