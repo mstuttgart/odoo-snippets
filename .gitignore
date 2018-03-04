@@ -58,7 +58,7 @@ typings/
 .env
 
 # Project files
-.vscode
+.vscode/settings.json
 vsc-extension-quickstart.md
 zumby.py
 zumby.xml
