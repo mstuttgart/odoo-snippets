@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.2.2
+
+- Fix XML snippets not working
+
 ## 0.2.1
 - Add new line in all Python snippets;
 
