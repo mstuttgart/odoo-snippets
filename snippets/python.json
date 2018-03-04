@@ -28,7 +28,8 @@
             "\t'installable': ${12:True},",
             "\t'auto_install': ${13:False},",
             "\t'application': ${14:False},",
-            "}"
+            "}",
+            "$0"
         ],
         "description": "Create Odoo Manifest"
     },
@@ -39,7 +40,8 @@
             "\n\nclass ${1:ModuleName}(models.Model):",
             "\t_name = '${2:module.name}'",
             "\t_description = '${3:New Description}'",
-            "\n\tname = fields.Char(string='Name')"
+            "\n\tname = fields.Char(string='Name')",
+            "$0"
         ],
         "description": "Create New Odoo Model"
     },
@@ -49,7 +51,8 @@
             "from odoo import api, fields, models",
             "\n\nclass ${1:ModuleName}(models.Model):",
             "\t_inherit = '${2:module.name}'",
-            "\n\tname = fields.Char(string='Name')"
+            "\n\tname = fields.Char(string='Name')",
+            "$0"
         ],
         "description": "Inherit Existing Odoo Model"
     },
@@ -59,98 +62,112 @@
             "from odoo.tests.common import TransactionCase",
             "\n\nclass Test${1:ModuleName}(TransactionCase):",
             "\n\tdef setUp(self):",
-            "\t\tsuper(Test${1:ModuleName}, self).setUp()"
+            "\t\tsuper(Test${1:ModuleName}, self).setUp()",
+            "$0"
         ],
         "description": "Add Test Class to Odoo Model"
     },
     "odoo_field_binary": {
         "prefix": "ofbin",
         "body": [
-            "${1:new_field} = fields.Binary(string='${2}')"
+            "${1:new_field} = fields.Binary(string='${2}')",
+            "$0"
         ],
         "description": "Add new field of type Binary"
     },
     "odoo_field_boolean": {
         "prefix": "ofbool",
         "body": [
-            "${1:new_field} = fields.Boolean(string='${2}')"
+            "${1:new_field} = fields.Boolean(string='${2}')",
+            "$0"
         ],
         "description": "Add new field of type Boolean"
     },
     "odoo_field_char": {
         "prefix": "ofchar",
         "body": [
-            "${1:new_field} = fields.Char(string='${2}', required=${3:False})"
+            "${1:new_field} = fields.Char(string='${2}', required=${3:False})",
+            "$0"
         ],
         "description": "Add new field of type Char"
     },
     "odoo_field_date": {
         "prefix": "ofdate",
         "body": [
-            "${1:new_field} = fields.Date(string='${2}', required=${3:False})"
+            "${1:new_field} = fields.Date(string='${2}', required=${3:False})",
+            "$0"
         ],
         "description": "Add new field of type Date"
     },
     "odoo_field_datetime": {
         "prefix": "oftime",
         "body": [
-            "${1:new_field} = fields.Datetime(string='${2}', required=${3:False})"
+            "${1:new_field} = fields.Datetime(string='${2}', required=${3:False})",
+            "$0"
         ],
         "description": "Add new field of type DateTime"
     },
     "odoo_field_float": {
         "prefix": "offloat",
         "body": [
-            "${1:new_field} = fields.Float(string='${2}', required=${3:False})"
+            "${1:new_field} = fields.Float(string='${2}', required=${3:False})",
+            "$0"
         ],
         "description": "Add new field of type Float"
     },
     "odoo_field_html": {
         "prefix": "ofhtml",
         "body": [
-            "${1:new_field} = fields.HTML(string='${2}')"
+            "${1:new_field} = fields.HTML(string='${2}')",
+            "$0"
         ],
         "description": "Add new field of type HTML"
     },
     "odoo_field_int": {
         "prefix": "ofint",
         "body": [
-            "${1:new_field} = fields.Integer(string='${2}', required=${3:False})"
+            "${1:new_field} = fields.Integer(string='${2}', required=${3:False})",
+            "$0"
         ],
         "description": "Add new field of type Integer"
     },
     "odoo_field_text": {
         "prefix": "oftxt",
         "body": [
-            "${1:new_field} = fields.Integer(string='${2}', required=${3:False})"
+            "${1:new_field} = fields.Integer(string='${2}', required=${3:False})",
+            "$0"
         ],
         "description": "Add new field of type Text"
     },
     "odoo_field_selection": {
         "prefix": "ofsel",
         "body": [
-            "${1:new_field} = fields.Integer(string='${1}', required=${2:False}, selection=[('${3}', '${4}'), ('${5}', '${6}'), ])"
+            "${1:new_field} = fields.Integer(string='${1}', required=${2:False}, selection=[('${3}', '${4}'), ('${5}', '${6}'), ])",
+            "$0"
         ],
         "description": "Add new field of type Selection"
     },
     "odoo_field_many2one": {
         "prefix": "ofm2o",
         "body": [
-            "${1:new_field} = fields.Many2one(comodel_name='${2}', string='${3}', required=${4:False})"
+            "${1:new_field} = fields.Many2one(comodel_name='${2}', string='${3}', required=${4:False})",
+            "$0"
         ],
         "description": "Add new field of type Many2one"
     },
     "odoo_field_many2many": {
         "prefix": "ofm2m",
         "body": [
-            "${1:new_field} = fields.Many2many(comodel_name='${2}', string='${3}')"
+            "${1:new_field} = fields.Many2many(comodel_name='${2}', string='${3}')",
+            "$0"
         ],
         "description": "Add new field of type Many2many"
     },
     "odoo_field_one2many": {
         "prefix": "ofo2m",
         "body": [
-            "${1:new_field} = fields.One2many(comodel_name='${2}', inverse_name='${3}', string='${4}', required=${5:False})"
+            "${1:new_field} = fields.One2many(comodel_name='${2}', inverse_name='${3}', string='${4}', required=${5:False})",
+            "$0"
         ],
         "description": "Add new field of type One2many"
     }
