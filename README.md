@@ -3,7 +3,6 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/mstuttgart.odoo-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/mstuttgart.odoo-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/mstuttgart.odoo-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets)
-[![license](https://img.shields.io/github/license/mstuttgart/odoo-vscode-snippets.svg?style=flat-square)](https://github.com/mstuttgart/odoo-vscode-snippets/blob/develop/LICENSE)
 
 This extension contains code snippets for [Odoo](https://www.odoo.com) to help you to develop Odoo modules faster and with no Typing Errors.
 
