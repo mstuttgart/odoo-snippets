@@ -28,7 +28,7 @@ Below is a list of all available snippets.
 ### Python Snippets
 
 | Snippet   | Description                     |
-| :-------- | :------------------------------ |
+|-----------|---------------------------------|
 | `oman`    | Create Odoo Manifest            |
 | `omod`    | Create New Odoo Model           |
 | `omodi`   | Inherit Existing Odoo Model     |
@@ -46,6 +46,8 @@ Below is a list of all available snippets.
 | `ofm2o`   | Add new field of type Many2one  |
 | `ofm2m`   | Add new field of type Many2many |
 | `ofo2m`   | Add new field of type One2many  |
+| `ocreate` | Add a method create             |
+| `owrite`  | Add a method write              |
 
 ### XML Snippets
 
