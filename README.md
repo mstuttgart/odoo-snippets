@@ -29,27 +29,27 @@ Below is a list of all available snippets.
 
 ### Python Snippets
 
-| Snippet   | Description                     |
-|-----------|---------------------------------|
-| `oman`    | Create Odoo Manifest            |
-| `omod`    | Create New Odoo Model           |
-| `omodi`   | Inherit Existing Odoo Model     |
-| `omodt`   | Create Test to Odoo Model       |
-| `ofbin`   | Add new field of type Binary    |
-| `ofbool`  | Add new field of type Boolean   |
-| `ofchar`  | Add new field of type Char      |
-| `ofdate`  | Add new field of type Date      |
-| `oftime`  | Add new field of type DateTime  |
-| `offloat` | Add new field of type Float     |
-| `ofhtml`  | Add new field of type HTML      |
-| `ofint`   | Add new field of type Integer   |
-| `oftxt`   | Add new field of type Text      |
-| `ofsel`   | Add new field of type Selection |
-| `ofm2o`   | Add new field of type Many2one  |
-| `ofm2m`   | Add new field of type Many2many |
-| `ofo2m`   | Add new field of type One2many  |
-| `ocreate` | Add a method create             |
-| `owrite`  | Add a method write              |
+| Snippet   | Description                 |
+|-----------|-----------------------------|
+| `oman`    | Create Odoo Manifest        |
+| `omod`    | Create New Odoo Model       |
+| `omodi`   | Inherit Existing Odoo Model |
+| `omodt`   | Create Test to Odoo Model   |
+| `ofbin`   | Add new field Binary        |
+| `ofbool`  | Add new field Boolean       |
+| `ofchar`  | Add new field Char          |
+| `ofdate`  | Add new field Date          |
+| `oftime`  | Add new field DateTime      |
+| `offloat` | Add new field Float         |
+| `ofhtml`  | Add new field HTML          |
+| `ofint`   | Add new field Integer       |
+| `oftxt`   | Add new field Text          |
+| `ofsel`   | Add new field Selection     |
+| `ofm2o`   | Add new field Many2one      |
+| `ofm2m`   | Add new field Many2many     |
+| `ofo2m`   | Add new field One2many      |
+| `ocreate` | Add a method create         |
+| `owrite`  | Add a method write          |
 
 ### XML Snippets
 
