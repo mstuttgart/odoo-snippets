@@ -170,5 +170,16 @@
             "$0"
         ],
         "description": "Add new field of type One2many"
+    },
+    "odoo_method_create":{
+        "prefix": "ocreate",
+        "body":[
+            "@api.model",
+            "def create(self, values):",
+            "\t# Add code here",
+            "\treturn super(${1:ClassName}, self).create(values)",
+            "$0"
+        ],
+        "description": "Add a method create"
     }
 }
