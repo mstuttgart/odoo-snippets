@@ -6,6 +6,8 @@
 
 This extension contains code snippets for [Odoo](https://www.odoo.com) to help you to develop Odoo modules faster and with no Typing Errors.
 
+All snippets follow the [OCA Maintainer Guidelines](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md) and are made to Odoo version `10.0` and `11.0`.
+
 ## Installation
 
 Launch VS Code Quick Open `Ctrl + p` or `Cmd + p`, paste the following command, and press enter.
