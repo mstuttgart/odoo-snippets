@@ -181,5 +181,16 @@
             "$0"
         ],
         "description": "Add a method create"
+    },
+    "odoo_method_write": {
+        "prefix": "owrite",
+        "body": [
+            "@api.model",
+            "def write(self, values):",
+            "\t# Add code here",
+            "\treturn super(${1:ClassName}, self).write(values)",
+            "$0"
+        ],
+        "description": "Add a method write"
     }
 }
