@@ -28,28 +28,29 @@ This extension provide support to following languages (file extensions):
 Below is a list of all available snippets.
 
 ### Python Snippets
-
-| Snippet   | Description                 |
-|-----------|-----------------------------|
-| `oman`    | Create Odoo Manifest        |
-| `omod`    | Create New Odoo Model       |
-| `omodi`   | Inherit Existing Odoo Model |
-| `omodt`   | Create Test to Odoo Model   |
-| `ofbin`   | Add new field Binary        |
-| `ofbool`  | Add new field Boolean       |
-| `ofchar`  | Add new field Char          |
-| `ofdate`  | Add new field Date          |
-| `oftime`  | Add new field DateTime      |
-| `offloat` | Add new field Float         |
-| `ofhtml`  | Add new field HTML          |
-| `ofint`   | Add new field Integer       |
-| `oftxt`   | Add new field Text          |
-| `ofsel`   | Add new field Selection     |
-| `ofm2o`   | Add new field Many2one      |
-| `ofm2m`   | Add new field Many2many     |
-| `ofo2m`   | Add new field One2many      |
-| `ocreate` | Add a method create         |
-| `owrite`  | Add a method write          |
+| Snippet    | Description                 |
+|------------|-----------------------------|
+| `oman`     | Create Odoo Manifest        |
+| `omod`     | Create New Odoo Model       |
+| `omodi`    | Inherit Existing Odoo Model |
+| `omodt`    | Create Test to Odoo Model   |
+| `ofbin`    | Add new field Binary        |
+| `ofbool`   | Add new field Boolean       |
+| `ofchar`   | Add new field Char          |
+| `ofdate`   | Add new field Date          |
+| `oftime`   | Add new field DateTime      |
+| `offloat`  | Add new field Float         |
+| `ofhtml`   | Add new field HTML          |
+| `ofint`    | Add new field Integer       |
+| `oftxt`    | Add new field Text          |
+| `ofsel`    | Add new field Selection     |
+| `ofm2o`    | Add new field Many2one      |
+| `ofm2m`    | Add new field Many2many     |
+| `ofo2m`    | Add new field One2many      |
+| `omcreate` | Add a method create         |
+| `omwrite`  | Add a method write          |
+| `omcomp`   | Add a method compute        |
+| `omchange` | Add a method omchange       |
 
 ### XML Snippets
 
