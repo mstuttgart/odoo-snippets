@@ -172,7 +172,7 @@
         "description": "Add new field of type One2many"
     },
     "odoo_method_create":{
-        "prefix": "ocreate",
+        "prefix": "omcreate",
         "body":[
             "@api.model",
             "def create(self, values):",
@@ -183,7 +183,7 @@
         "description": "Add a method create"
     },
     "odoo_method_write": {
-        "prefix": "owrite",
+        "prefix": "omwrite",
         "body": [
             "@api.model",
             "def write(self, values):",
