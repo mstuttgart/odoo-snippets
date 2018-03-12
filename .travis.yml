@@ -15,16 +15,7 @@ before_deploy:
 - vsce package;
 
 deploy:
-- provider: releases
-  api_key:
-    secure: L65q48UUlLjSwVHPCjAU7y3jfBIPz+RZEdveBWzCq9ahUZZRYwlW6vEWujrzl+uPaQnUXPz3qYIYLisCXJBjPt41LGCTlYMKlfcZoD+Vdn0EDTlaQZkbsqfi43/WQNtYIifyFm0jLh/4yzsyM0H/GO3lnJa8sniQ6LABDEzDjXizVfWZ7xgeSnqirU3ushFqv7x3cYWW84zAa1u0w96X73gMWv//fJGEqvGmmDylFUSg89JB3rxJhV/MEofP8eZ8X9z/cuhlRCBFlr5FInpi1Sl8xXxEwYRW2G2tGSnhGZgChzE0i0sKcYTn+hRW2ENTXOtMydeBKXlmUU/WuGqwXMCDeErbNKfjU/WaS8FXsXvc9/zdQ9Q1qV9p5B33GVKA5gzHx/l/Dx10lQqDpcJKGwoac6UOP9Zss5PRlhBLIuGjp15FhxTfbwG0GSg2XNFlBGEQY4oqo+QK6b6q17pw+B/usqjSwwUbAKwz6F5meZjF/MpbFsVY0qL1SAA/YR7Ia7dOIG9O/UdrxUulKV9ienV2WbluBDdB0UG+qnWtyof3nXj7OyX1bbLfZ4DTNAPtG3FOr13PLQlnjszy/nNiwlU4/lbTItJTUHFsIxnWpM8aLAIXfnjf5FcoaMT/5EPUBvaEj33nUmRpuoovvBaiXlWxPf+nwxFGnXobpm7ItPw=
-  file: "*.vsix"
-  file_glob: true
-  skip_cleanup: true
-  on:
-    repo: mstuttgart/odoo-vscode-snippets
-    tags: true
-- provider: script
+  provider: script
   script: vsce publish -p ${VSCODE}
   skip_cleanup: true
   on:
