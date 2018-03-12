@@ -192,5 +192,25 @@
             "$0"
         ],
         "description": "Add a method write"
+    },
+    "odoo_method_compute": {
+        "prefix": "omcomp",
+        "body": [
+            "@api.depends('${1:field_name}')",
+            "def _compute_${1:field_name}(self):",
+            "\tself.${1:field_name} = ''",
+            "$0"
+        ],
+        "description": "Add a method compute"
+    },
+    "odoo_method_onchange": {
+        "prefix": "omchange",
+        "body": [
+            "@api.onchange('${1:field_name}')",
+            "def _onchange_${1:field_name}(self):",
+            "\tself.${1:field_name} = ''",
+            "$0"
+        ],
+        "description": "Add a method onchange"
     }
 }
