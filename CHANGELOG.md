@@ -1,5 +1,16 @@
 # Change Log
 
+## 0.4.0
+
+* [NEW] Add ir cron snippet
+* [NEW] Add menu action snippet
+* [NEW] Add menu categoty snippet
+* [NEW] Add menu root snippet
+* [NEW] Add notebook page snippets
+* [NEW] Add notebook snippet
+* [NEW] Add ir.action.act_window snippets
+* [IMP] Update install instruction
+
 ## 0.3.0
 
 - Add snippets to method create, write, compute and onchange.
