@@ -115,5 +115,15 @@
             "\t</page>",
             "</notebook>"
         ]
+    },
+    "odoo_page": {
+        "prefix": "opage",
+        "body": [
+            "<page string=\"${1}\" name=\"${2}\">",
+            "\t<group>",
+            "\t\t<field name=\"${3}\"/>",
+            "\t</group>",
+            "</page>"
+        ]
     }
 }
