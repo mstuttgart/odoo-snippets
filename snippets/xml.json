@@ -139,5 +139,12 @@
             "<!-- This Menu Item Must have a parent -->",
             "<menuitem id=\"${1}_menu_categ\" name=\"${2}\" parent=\"${3}\" sequence=\"${4}\"/>"
         ]
+    },
+    "odoo_menu_action": {
+        "prefix": "omenua",
+        "body": [
+            "<!-- This Menu Item must have a parent and an action -->",
+            "<menuitem id=\"${1}_menu_act\" name=\"${2}\" parent=\"${3}\" action=\"${4}\" sequence=\"${5}\"/>"
+        ]
     }
 }
