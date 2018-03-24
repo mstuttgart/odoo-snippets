@@ -84,5 +84,24 @@
             "</xpath>"
         ],
         "description": "Add the structure of xpath"
+    },
+    "odoo_action": {
+        "prefix": "oact",
+        "body": [
+            "<!-- ${1:model.name} action window -->",
+            "<record id=\"${2:model_name}_action\" model=\"ir.actions.act_window\">",
+            "\t<field name=\"name\">${1:model.name}.action</field>",
+            "\t<field name=\"type\">ir.actions.act_window</field>",
+            "\t<field name=\"res_model\">${1:model.name}</field>",
+            "\t<field name=\"view_mode\">tree,form</field>",
+            "\t<field name=\"help\" type=\"html\">",
+            "\t\t<p class=\"oe_view_nocontent_create\">",
+            "\t\t\t<!-- Add Text Here -->",
+            "\t\t</p><p>",
+            "\t\t\t<!-- More details about what a user can do with this object will be OK --> ",
+            "\t\t</p>",
+            "\t</field>",
+            "</record>"
+        ]
     }
 }
