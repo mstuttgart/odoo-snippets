@@ -103,5 +103,17 @@
             "\t</field>",
             "</record>"
         ]
+    },
+    "odoo_notebook": {
+        "prefix": "onote",
+        "body": [
+            "<notebook>",
+            "\t<page string=\"${1}\" name=\"${2}\">",
+            "\t\t<group>",
+            "\t\t\t<field name=\"${3}\"/>",
+            "\t\t</group>",
+            "\t</page>",
+            "</notebook>"
+        ]
     }
 }
