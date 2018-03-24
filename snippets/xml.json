@@ -102,7 +102,8 @@
             "\t\t</p>",
             "\t</field>",
             "</record>"
-        ]
+        ],
+        "description": "Create new Action"
     },
     "odoo_notebook": {
         "prefix": "onote",
@@ -114,7 +115,8 @@
             "\t\t</group>",
             "\t</page>",
             "</notebook>"
-        ]
+        ],
+        "description": "Add notebook and page tags"
     },
     "odoo_page": {
         "prefix": "opage",
@@ -124,28 +126,32 @@
             "\t\t<field name=\"${3}\"/>",
             "\t</group>",
             "</page>"
-        ]
+        ],
+        "description": "Add new page tag"
     },
     "odoo_menu_root": {
         "prefix": "omenur",
         "body": [
             "<!-- This Menu Item will appear in the Upper bar, that's why It needs NO parent or action -->",
             "<menuitem id=\"${1}_menu_root\" name=\"${2}\" sequence=\"${3}\"/>"
-        ]
+        ],
+        "description": "Create New Menu Item in the Upper bar"
     },
     "odoo_menu_category": {
         "prefix": "omenuc",
         "body": [
             "<!-- This Menu Item Must have a parent -->",
             "<menuitem id=\"${1}_menu_categ\" name=\"${2}\" parent=\"${3}\" sequence=\"${4}\"/>"
-        ]
+        ],
+        "description": "Create New Menu Item for Categories"
     },
     "odoo_menu_action": {
         "prefix": "omenua",
         "body": [
             "<!-- This Menu Item must have a parent and an action -->",
             "<menuitem id=\"${1}_menu_act\" name=\"${2}\" parent=\"${3}\" action=\"${4}\" sequence=\"${5}\"/>"
-        ]
+        ],
+        "description": "Create New Menu Item for Actions"
     },
     "odoo_ir_cron": {
         "prefix": "ocron",
@@ -163,6 +169,7 @@
             "\t<field name=\"state\">code</field>",
             "\t<field name=\"code\">model.${10:method_name}()</field>",
             "</record>"
-        ]
+        ],
+        "description": "Add a ir.cron record"
     }
 }
