@@ -132,5 +132,12 @@
             "<!-- This Menu Item will appear in the Upper bar, that's why It needs NO parent or action -->",
             "<menuitem id=\"${1}_menu_root\" name=\"${2}\" sequence=\"${3}\"/>"
         ]
+    },
+    "odoo_menu_category": {
+        "prefix": "omenuc",
+        "body": [
+            "<!-- This Menu Item Must have a parent -->",
+            "<menuitem id=\"${1}_menu_categ\" name=\"${2}\" parent=\"${3}\" sequence=\"${4}\"/>"
+        ]
     }
 }
