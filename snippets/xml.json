@@ -125,5 +125,12 @@
             "\t</group>",
             "</page>"
         ]
+    },
+    "odoo_menu_root": {
+        "prefix": "omenur",
+        "body": [
+            "<!-- This Menu Item will appear in the Upper bar, that's why It needs NO parent or action -->",
+            "<menuitem id=\"${1}_menu_root\" name=\"${2}\" sequence=\"${3}\"/>"
+        ]
     }
 }
