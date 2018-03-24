@@ -146,5 +146,23 @@
             "<!-- This Menu Item must have a parent and an action -->",
             "<menuitem id=\"${1}_menu_act\" name=\"${2}\" parent=\"${3}\" action=\"${4}\" sequence=\"${5}\"/>"
         ]
+    },
+    "odoo_ir_cron": {
+        "prefix": "ocron",
+        "body": [
+            "<!-- ${1:model.name} cron -->",
+            "<record id=\"${2:model_name}_ir_cron\" forcecreate=\"${3:True}\" model=\"ir.cron\">",
+            "\t<field name=\"name\">${1}.ir.cron</field>",
+            "\t<field name=\"user_id\" ref=\"base.user_root\"/>",
+            "\t<field name=\"doall\" eval=\"${5:False}\"/>",
+            "\t<field name=\"active\" eval=\"${6:True}\"/>",
+            "\t<field name=\"interval_number\">${7:1}</field>",
+            "\t<field name=\"interval_type\">${8:minutes}</field>",
+            "\t<field name=\"numbercall\">${9:-1}</field>",
+            "\t<field name=\"model_id\" ref=\"model_${2:model_name}\"/>",
+            "\t<field name=\"state\">code</field>",
+            "\t<field name=\"code\">model.${10:method_name}()</field>",
+            "</record>"
+        ]
     }
 }
