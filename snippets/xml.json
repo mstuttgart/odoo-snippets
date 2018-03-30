@@ -203,5 +203,12 @@
             "</record>"
         ],
         "description": "Add a ir.cron record"
+    },
+    "odoo_button": {
+        "prefix": "obtn",
+        "body": [
+            "<button name=\"action_${1:button_method_name}\" type=\"${2:object}\" string=\"${3:ObjectButton}\"/>"
+        ],
+        "description": "Add Odoo button"
     }
 }
