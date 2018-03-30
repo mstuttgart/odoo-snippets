@@ -1,15 +1,22 @@
 # Change Log
 
+## 0.5.0
+
+- [NEW] Add button box snippet
+- [NEW] Add button snippet
+- [FIX] Remove tag '<sheet>' from inherit tree snippet
+- [NEW] Add search and search inherit views
+
 ## 0.4.0
 
-* [NEW] Add ir cron snippet
-* [NEW] Add menu action snippet
-* [NEW] Add menu categoty snippet
-* [NEW] Add menu root snippet
-* [NEW] Add notebook page snippets
-* [NEW] Add notebook snippet
-* [NEW] Add ir.action.act_window snippets
-* [IMP] Update install instruction
+- [NEW] Add ir cron snippet
+- [NEW] Add menu action snippet
+- [NEW] Add menu categoty snippet
+- [NEW] Add menu root snippet
+- [NEW] Add notebook page snippets
+- [NEW] Add notebook snippet
+- [NEW] Add ir.action.act_window snippets
+- [IMP] Update install instruction
 
 ## 0.3.0
 
