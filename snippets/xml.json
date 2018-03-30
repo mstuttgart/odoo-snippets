@@ -64,12 +64,10 @@
             "\t<field name=\"model\">${1:model.name}</field>",
             "\t<field name=\"inherit_id\" ref=\"${3:base_module}.${2:view_id}\"/>",
             "\t<field name=\"arch\" type=\"xml\">",
-            "\t<sheet>",
             "\t\t<xpath expr=\"//field[@name='${4:name}']\" position=\"${5:after}\">",
             "\t\t\t<!-- Add new fields here -->",
             "\t\t\t$0",
             "\t\t</xpath>",
-            "\t</sheet>",
             "\t</field>",
             "</record>"
         ],
