@@ -76,6 +76,7 @@ Below is a list of all available snippets.
 | `omenuc`   | Create New Menu Item for Categories   |
 | `omenua`   | Create New Menu Item for Actions      |
 | `ocron`    | Add a ir.cron record (11.0 version)   |
+| `obtn`     | Add Odoo button                       |
 
 ## Credits
 
