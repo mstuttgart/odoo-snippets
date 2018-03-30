@@ -77,6 +77,7 @@ Below is a list of all available snippets.
 | `omenua`   | Create New Menu Item for Actions      |
 | `ocron`    | Add a ir.cron record (11.0 version)   |
 | `obtn`     | Add Odoo button                       |
+| `obtnbox`  | Add Button Box on View                |
 
 ## Credits
 
