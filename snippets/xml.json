@@ -210,5 +210,20 @@
             "<button name=\"action_${1:button_method_name}\" type=\"${2:object}\" string=\"${3:ObjectButton}\"/>"
         ],
         "description": "Add Odoo button"
+    },
+    "odoo_button_box": {
+        "prefix": "obtnbox",
+        "body": [
+            "<div class=\"oe_button_box\" name=\"${1:model_name}_button_box\">",
+            "\t<button name=\"action_${2:toggle_active}\"",
+            "\t\t\ttype=\"object\"",
+            "\t\t\tconfirm=\"${3:(Un)archiving a project automatically (un)archives its tasks and issues. Do you want to proceed?}\"",
+            "\t\t\tclass=\"oe_stat_button\"",
+            "\t\t\ticon=\"fa-archive\">",
+            "\t\t\t<field name=\"${5:active}\" widget=\"${6:boolean_button}\" options='{\"terminology\": \"archive\"}'/>",
+            "\t</button>",
+            "</div>"
+        ],
+        "description": "Add Button Box on View"
     }
 }
