@@ -79,6 +79,10 @@ Below is a list of all available snippets.
 | `obtn`     | Add Odoo button                       |
 | `obtnbox`  | Add Button Box on View                |
 
+## Contributing
+
+Please, see contributing guidelines [here](https://github.com/mstuttgart/odoo-vscode-snippets/blob/develop/CONTRIBUTING.md).
+
 ## Credits
 
 This snippets are based in [odoo-pycharm-templates](https://github.com/mohamedmagdy/odoo-pycharm-templates) project.
