@@ -126,6 +126,7 @@
             "\t<field name=\"type\">ir.actions.act_window</field>",
             "\t<field name=\"res_model\">${1:model.name}</field>",
             "\t<field name=\"view_mode\">tree,form</field>",
+            "\t<field name=\"view_type\">form</field>",
             "\t<field name=\"help\" type=\"html\">",
             "\t\t<p class=\"oe_view_nocontent_create\">",
             "\t\t\t<!-- Add Text Here -->",
