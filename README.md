@@ -35,7 +35,7 @@ Below is a list of all available snippets.
 ### Python Snippets
 
 | Snippet    | Description                 |
-|------------|-----------------------------|
+| ---------- | --------------------------- |
 | `oman`     | Create Odoo Manifest        |
 | `omod`     | Create New Odoo Model       |
 | `omodi`    | Inherit Existing Odoo Model |
@@ -60,24 +60,25 @@ Below is a list of all available snippets.
 
 ### XML Snippets
 
-| Snippet    | Description                           |
-|------------|---------------------------------------|
-| `oform`    | Create Form View                      |
-| `oformi`   | Inherit Existing Form View            |
-| `otree`    | Create Tree View                      |
-| `otreei`   | Inherit Existing Tree View            |
-| `osearch`  | Create Search View                    |
-| `osearchi` | Inherit Existing Search View          |
-| `oxpath`   | Add the structure of xpath            |
-| `oact`     | Create new Action                     |
-| `onote`    | Add notebook and page tags            |
-| `opage`    | Add new page tag                      |
-| `omenur`   | Create New Menu Item in the Upper bar |
-| `omenuc`   | Create New Menu Item for Categories   |
-| `omenua`   | Create New Menu Item for Actions      |
-| `ocron`    | Add a ir.cron record (11.0 version)   |
-| `obtn`     | Add Odoo button                       |
-| `obtnbox`  | Add Button Box on View                |
+| Snippet      | Description                              |
+| ------------ | ---------------------------------------- |
+| `oform`      | Create Form View                         |
+| `oformi`     | Inherit Existing Form View               |
+| `otree`      | Create Tree View                         |
+| `otreei`     | Inherit Existing Tree View               |
+| `osearch`    | Create Search View                       |
+| `osearchi`   | Inherit Existing Search View             |
+| `oxpath`     | Add the structure of xpath               |
+| `oxpathattr` | Add the structure of xpath to attributes |
+| `oact`       | Create new Action                        |
+| `onote`      | Add notebook and page tags               |
+| `opage`      | Add new page tag                         |
+| `omenur`     | Create New Menu Item in the Upper bar    |
+| `omenuc`     | Create New Menu Item for Categories      |
+| `omenua`     | Create New Menu Item for Actions         |
+| `ocron`      | Add a ir.cron record (11.0 version)      |
+| `obtn`       | Add Odoo button                          |
+| `obtnbox`    | Add Button Box on View                   |
 
 ## Contributing
 
