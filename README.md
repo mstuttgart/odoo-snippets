@@ -74,6 +74,8 @@ Below is a list of all available snippets.
 | `opivoti`    | Inherit Existing Pivot View              |
 | `okanban`    | Create Kanban View                       |
 | `okanbani`   | Inherit Existing Kanban View             |
+| `ocalendar`  | Create Calendar View                     |
+| `ocalendari` | Inherit Existing Calendar View           |
 | `oxpath`     | Add the structure of xpath               |
 | `oxpathattr` | Add the structure of xpath to attributes |
 | `oact`       | Create new Action                        |

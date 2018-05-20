@@ -201,6 +201,39 @@
         ],
         "description": "Inherit Existing Kanban View"
     },
+    "odoo_calendar": {
+        "prefix": "ocalendar",
+        "body": [
+            "<!-- ${1:model.name} calendar view -->",
+            "<record id=\"${2:model_name}_view_calendar\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${1:first.name}.view.calendar</field>",
+            "\t<field name=\"model\">${1:first.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<calendar string=\"${3:Calendar Description}\" date_start=\"{4}\" mode=\"{6:month}\">",
+            "\t\t\t<!-- Add your fields here -->",
+            "\t\t\t$0",
+            "\t\t</calendar>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Create Calendar View"
+    },
+    "odoo_calendar_inherit": {
+        "prefix": "ocalendari",
+        "body": [
+            "<!-- ${1:model.name} inherit calendar view -->",
+            "<record id=\"${2:view_id}\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${1:model.name}.inherit.view.calendar</field>",
+            "\t<field name=\"model\">${1:model.name}</field>",
+            "\t<field name=\"inherit_id\" ref=\"${3:base_module}.${2:view_id}\"/>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<!-- Add you xpath here -->",
+            "\t\t$0",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Inherit Existing Calendar View"
+    },
     "odoo_xpath": {
         "prefix": "oxpath",
         "body": [
