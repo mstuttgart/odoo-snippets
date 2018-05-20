@@ -56,7 +56,7 @@ Below is a list of all available snippets.
 | `omcreate` | Add a method create         |
 | `omwrite`  | Add a method write          |
 | `omcomp`   | Add a method compute        |
-| `omchange` | Add a method omchange       |
+| `omchange` | Add a method onchange       |
 
 ### XML Snippets
 
