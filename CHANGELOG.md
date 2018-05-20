@@ -1,5 +1,20 @@
 # Change Log
 
+## 0.6.0
+
+- [NEW] Add xpath attributes snippets
+- [IMP] Move '@' to outside xpath snippet variable
+- [NEW] Add graph and graph inherit views snippets
+- [FIX] Fix name tag value in tree view snippet
+- [FIX] Fix name tag in search view snippets
+- [IMP] Simplify tree, form, search and graph views
+- [NEW] Add pivot and pivot inherit views snippets
+- [NEW] Add kanban and kanban inherit views snippets
+- [NEW] Add calendar and calendar inherit views snippets
+- [NEW] Add gantt and gantt inherit views snippets
+- [FIX] Fix onchange description on README
+
+
 ## 0.5.0
 
 - [NEW] Add button box snippet
@@ -24,23 +39,22 @@
 
 ## 0.2.2
 
-- Fix XML snippets not working.
+- [FIX] XML snippets not working.
 
 ## 0.2.1
-- Add new line in all Python snippets.
+- [NEW] Add line in all Python snippets.
 
 ## 0.2.0
 
-- New Form (new and inherit) XML snippets.
-- New Tree (new and inherit) XML snippets.
-- New Xpath XML snippet.
-- Improve snippets name of model and relational fields.
-- Fices in fields parameters.
+- [NEW] Form (new and inherit) XML snippets.
+- [NEW] Tree (new and inherit) XML snippets.
+- [NEW] Xpath XML snippet.
+- [IMP] Snippets name of model and relational fields.
 
 ## 0.1.1
 
-- Fix many2one, many2many and one2many parameter.
-- Fix snippets of some fields.
+- [FIX] Fix Many2one, many2many and one2many parameter.
+- [FIX] Fix Snippets of some fields.
 
 ## 0.1.0
 
