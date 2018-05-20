@@ -72,6 +72,8 @@ Below is a list of all available snippets.
 | `ographi`    | Inherit Existing Graph View              |
 | `opivot`     | Create Pivot View                        |
 | `opivoti`    | Inherit Existing Pivot View              |
+| `okanban`    | Create Kanban View                       |
+| `okanbani`   | Inherit Existing Kanban View             |
 | `oxpath`     | Add the structure of xpath               |
 | `oxpathattr` | Add the structure of xpath to attributes |
 | `oact`       | Create new Action                        |
