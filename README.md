@@ -70,6 +70,8 @@ Below is a list of all available snippets.
 | `osearchi`   | Inherit Existing Search View             |
 | `ograph`     | Create Graph View                        |
 | `ographi`    | Inherit Existing Graph View              |
+| `opivot`     | Create Pivot View                        |
+| `opivoti`    | Inherit Existing Pivot View              |
 | `oxpath`     | Add the structure of xpath               |
 | `oxpathattr` | Add the structure of xpath to attributes |
 | `oact`       | Create new Action                        |
