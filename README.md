@@ -68,6 +68,8 @@ Below is a list of all available snippets.
 | `otreei`     | Inherit Existing Tree View               |
 | `osearch`    | Create Search View                       |
 | `osearchi`   | Inherit Existing Search View             |
+| `ograph`     | Create Graph View                        |
+| `ographi`    | Inherit Existing Graph View              |
 | `oxpath`     | Add the structure of xpath               |
 | `oxpathattr` | Add the structure of xpath to attributes |
 | `oact`       | Create new Action                        |
