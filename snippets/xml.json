@@ -234,6 +234,39 @@
         ],
         "description": "Inherit Existing Calendar View"
     },
+    "odoo_gantt": {
+        "prefix": "ogantt",
+        "body": [
+            "<!-- ${1:model.name} gantt view -->",
+            "<record id=\"${2:model_name}_view_gantt\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${1:first.name}.view.gantt</field>",
+            "\t<field name=\"model\">${1:first.name}</field>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<gantt string=\"${3:Gantt Description}\" date_start=\"{4}\">",
+            "\t\t\t<!-- Add your fields here -->",
+            "\t\t\t$0",
+            "\t\t</gantt>",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Create Gantt View"
+    },
+    "odoo_gantt_inherit": {
+        "prefix": "ogantti",
+        "body": [
+            "<!-- ${1:model.name} inherit gantt view -->",
+            "<record id=\"${2:view_id}\" model=\"ir.ui.view\">",
+            "\t<field name=\"name\">${1:model.name}.inherit.view.gantt</field>",
+            "\t<field name=\"model\">${1:model.name}</field>",
+            "\t<field name=\"inherit_id\" ref=\"${3:base_module}.${2:view_id}\"/>",
+            "\t<field name=\"arch\" type=\"xml\">",
+            "\t\t<!-- Add you xpath here -->",
+            "\t\t$0",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Inherit Existing Gantt View"
+    },
     "odoo_xpath": {
         "prefix": "oxpath",
         "body": [
