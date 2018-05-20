@@ -110,8 +110,8 @@
     "odoo_xpath": {
         "prefix": "oxpath",
         "body": [
-            "<xpath expr=\"//${1:field}[${2:@name}='${3:name}']\" position=\"${4:after}\">",
-            "\t<!-- Add your fields or attributes here -->",
+            "<xpath expr=\"//${1:field}[@${2:name}='${3:name}']\" position=\"${4:after}\">",
+            "\t<!-- Add your fields here -->",
             "\t$0",
             "</xpath>"
         ],
