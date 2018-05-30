@@ -134,7 +134,7 @@
     "odoo_field_text": {
         "prefix": "oftxt",
         "body": [
-            "${1:new_field} = fields.Integer(string='${2}', required=${3:False})",
+            "${1:new_field} = fields.Text(string='${2}', required=${3:False})",
             "$0"
         ],
         "description": "Add new field of type Text"
