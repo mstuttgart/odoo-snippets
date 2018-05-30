@@ -142,7 +142,7 @@
     "odoo_field_selection": {
         "prefix": "ofsel",
         "body": [
-            "${1:new_field} = fields.Integer(string='${1}', required=${2:False}, selection=[('${3}', '${4}'), ('${5}', '${6}'), ])",
+            "${1:new_field} = fields.Selection(string='${1}', required=${2:False}, selection=[('${3}', '${4}'), ('${5}', '${6}'), ])",
             "$0"
         ],
         "description": "Add new field of type Selection"
