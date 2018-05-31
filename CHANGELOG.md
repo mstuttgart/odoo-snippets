@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.6.1
+
+- [FIX] Remove 'required' tag from fields
+- [FIX] Fix type of field Text snippet
+- [FIX] Fix type of field Selection snippet
+
 ## 0.6.0
 
 - [NEW] Add xpath attributes snippets
@@ -35,7 +41,7 @@
 
 ## 0.3.0
 
-- Add snippets to method create, write, compute and onchange.
+- [NEW] Add snippets to method create, write, compute and onchange.
 
 ## 0.2.2
 
