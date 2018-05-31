@@ -86,7 +86,7 @@
     "odoo_field_char": {
         "prefix": "ofchar",
         "body": [
-            "${1:new_field} = fields.Char(string='${2}', required=${3:False})",
+            "${1:new_field} = fields.Char(string='${2}')",
             "$0"
         ],
         "description": "Add new field of type Char"
@@ -94,7 +94,7 @@
     "odoo_field_date": {
         "prefix": "ofdate",
         "body": [
-            "${1:new_field} = fields.Date(string='${2}', required=${3:False})",
+            "${1:new_field} = fields.Date(string='${2}')",
             "$0"
         ],
         "description": "Add new field of type Date"
@@ -102,7 +102,7 @@
     "odoo_field_datetime": {
         "prefix": "oftime",
         "body": [
-            "${1:new_field} = fields.Datetime(string='${2}', required=${3:False})",
+            "${1:new_field} = fields.Datetime(string='${2}')",
             "$0"
         ],
         "description": "Add new field of type DateTime"
@@ -110,7 +110,7 @@
     "odoo_field_float": {
         "prefix": "offloat",
         "body": [
-            "${1:new_field} = fields.Float(string='${2}', required=${3:False})",
+            "${1:new_field} = fields.Float(string='${2}')",
             "$0"
         ],
         "description": "Add new field of type Float"
@@ -126,7 +126,7 @@
     "odoo_field_int": {
         "prefix": "ofint",
         "body": [
-            "${1:new_field} = fields.Integer(string='${2}', required=${3:False})",
+            "${1:new_field} = fields.Integer(string='${2}')",
             "$0"
         ],
         "description": "Add new field of type Integer"
@@ -134,7 +134,7 @@
     "odoo_field_text": {
         "prefix": "oftxt",
         "body": [
-            "${1:new_field} = fields.Text(string='${2}', required=${3:False})",
+            "${1:new_field} = fields.Text(string='${2}')",
             "$0"
         ],
         "description": "Add new field of type Text"
@@ -142,7 +142,7 @@
     "odoo_field_selection": {
         "prefix": "ofsel",
         "body": [
-            "${1:new_field} = fields.Selection(string='${1}', required=${2:False}, selection=[('${3}', '${4}'), ('${5}', '${6}'), ])",
+            "${1:new_field} = fields.Selection(string='${1}', selection=[('${2}', '${3}'), ('${4}', '${5}'),])",
             "$0"
         ],
         "description": "Add new field of type Selection"
@@ -150,7 +150,7 @@
     "odoo_field_many2one": {
         "prefix": "ofm2o",
         "body": [
-            "${1:new_field} = fields.Many2one(comodel_name='${2}', string='${3}', required=${4:False})",
+            "${1:new_field} = fields.Many2one(comodel_name='${2}', string='${3}')",
             "$0"
         ],
         "description": "Add new field of type Many2one"
@@ -166,7 +166,7 @@
     "odoo_field_one2many": {
         "prefix": "ofo2m",
         "body": [
-            "${1:new_field} = fields.One2many(comodel_name='${2}', inverse_name='${3}', string='${4}', required=${5:False})",
+            "${1:new_field} = fields.One2many(comodel_name='${2}', inverse_name='${3}', string='${4}')",
             "$0"
         ],
         "description": "Add new field of type One2many"
