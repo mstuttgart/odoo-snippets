@@ -395,5 +395,12 @@
             "</div>"
         ],
         "description": "Add Button Box on View"
+    },
+    "odoo_field": {
+        "prefix": "ofield",
+        "body": [
+            "<field name=\"${0:name}\"/>"
+        ],
+        "description": "Create Field"
     }
 }
