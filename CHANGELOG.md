@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.7.0
+
+- [NEW] Add field snippets
+- [FIX] Fix tag in 'oxpathattr'
+
 ## 0.6.1
 
 - [FIX] Remove 'required' tag from fields
