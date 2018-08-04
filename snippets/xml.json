@@ -281,7 +281,7 @@
         "prefix": "oxpathattr",
         "body": [
             "<xpath expr=\"//${1:field}[@${2:name}='${3:name}']\" position=\"attributes\">",
-            "\t<attribute name=\"${4:name}\">{${5}}</attribute>",
+            "\t<attribute name=\"${4:attrs}\">{${5}}</attribute>",
             "</xpath>"
         ],
         "description": "Add the structure of xpath to attributes"
