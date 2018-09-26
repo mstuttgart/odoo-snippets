@@ -185,7 +185,7 @@
     "odoo_method_write": {
         "prefix": "omwrite",
         "body": [
-            "@api.model",
+            "@api.multi",
             "def write(self, values):",
             "\t# Add code here",
             "\treturn super(${1:ClassName}, self).write(values)",
