@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.7.1
+
+- [FIX] Fix api.multi in snippet of write method
+
 ## 0.7.0
 
 - [NEW] Add field snippets
