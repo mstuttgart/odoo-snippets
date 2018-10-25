@@ -8,7 +8,7 @@
   <br>
 </h1>
 
-<h4 align="center">Develop Odoo modules faster and with no Typing Errors.</h4>
+<h4 align="center">Develop Odoo modules faster and with no Typing Errors</h4>
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
@@ -127,7 +127,7 @@ Please, see contributing guidelines [here](https://github.com/mstuttgart/odoo-vs
 
 ## Release Notes
 
-See [changelog](CHANGELOG.md)
+See [changelog](CHANGELOG.md).
 
 ## Credits
 
