@@ -28,7 +28,7 @@
   <a href="#supported-languages">Supported Languages</a> •
   <a href="#usage">Usage</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#release-notes">Release Notes</a>
+  <a href="#release-notes">Release Notes</a> • 
   <a href="#credits">Credits</a>
 </p>
 
@@ -127,7 +127,7 @@ Please, see contributing guidelines [here](https://github.com/mstuttgart/odoo-vs
 
 ## Release Notes
 
-See [Changelog.md](CHANGELOG.md)
+See [changelog](CHANGELOG.md)
 
 ## Credits
 
