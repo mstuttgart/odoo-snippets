@@ -25,7 +25,6 @@
 <p align="center">
   <a href="#about">About</a> |
   <a href="#installation">Installation</a> |
-  <a href="#supported-languages">Supported Languages</a> |
   <a href="#usage">Usage</a> |
   <a href="#contributing">Contributing</a> |
   <a href="#release-notes">Release Notes</a> | 
@@ -51,14 +50,12 @@ Paste the following command and press `Enter`:
 ext install mstuttgart.odoo-snippets
 ```
 
-## Supported Languages
+## Usage
 
 This extension provide support to following languages (file extensions):
 
 * Python (.py)
 * XML (.xml)
-
-## Usage
 
 Below is a list of all available snippets.
 
