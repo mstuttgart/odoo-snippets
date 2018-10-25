@@ -1,8 +1,38 @@
-# Odoo Visual Code Snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/mstuttgart.odoo-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/mstuttgart.odoo-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/mstuttgart.odoo-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets)
+<h1 align="center">
+  <br>
+  <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
+  <img src="https://github.com/mstuttgart/vscode-odoo-snippets/blob/develop/images/icon.png"></a>
+  <br>
+  Odoo Visual Code Snippets
+  <br>
+</h1>
+
+<h4 align="center">Develop Odoo modules faster and with no Typing Errors.</h4>
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
+    <img src="https://vsmarketplacebadge.apphb.com/version-short/mstuttgart.odoo-snippets.svg?style=flat-square"         alt="Version">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
+    <img src="https://vsmarketplacebadge.apphb.com/installs/mstuttgart.odoo-snippets.svg?style=flat-square" alt="Installs">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
+      <img src="https://vsmarketplacebadge.apphb.com/rating/mstuttgart.odoo-snippets.svg?style=flat-square" alt="Ratings">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#supported-languages">Supported Languages</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#release-notes">Release Notes</a>
+  <a href="#credits">Credits</a>
+</p>
+
+## About
 
 This extension contains code snippets for [Odoo](https://www.odoo.com) to help you to develop Odoo modules faster and with no Typing Errors.
 
@@ -94,6 +124,10 @@ Below is a list of all available snippets.
 ## Contributing
 
 Please, see contributing guidelines [here](https://github.com/mstuttgart/odoo-vscode-snippets/blob/develop/CONTRIBUTING.md).
+
+## Release Notes
+
+See [Changelog.md](CHANGELOG.md)
 
 ## Credits
 
