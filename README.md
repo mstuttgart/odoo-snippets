@@ -23,12 +23,12 @@
 </p>
 
 <p align="center">
-  <a href="#about">About</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#supported-languages">Supported Languages</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#release-notes">Release Notes</a> • 
+  <a href="#about">About</a> |
+  <a href="#installation">Installation</a> |
+  <a href="#supported-languages">Supported Languages</a> |
+  <a href="#usage">Usage</a> |
+  <a href="#contributing">Contributing</a> |
+  <a href="#release-notes">Release Notes</a> | 
   <a href="#credits">Credits</a>
 </p>
 
