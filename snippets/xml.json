@@ -414,5 +414,14 @@
             "</odoo>"
         ],
         "description": "Create Data Tag"
+    },
+    "odoo_status_bar": {
+        "prefix": "ostatusbar",
+        "body": [
+            "<header>",
+            "\t<field name=\"${1}\" widget=\"statusbar\"/>",
+            "</header>"
+        ],
+        "description": "Create Header with Status Bar"
     }
 }

@@ -118,6 +118,7 @@ Below is a list of all available snippets.
 | `obtnbox`    | Add Button Box on View                   |
 | `ofield`     | Add Field on View                        |
 | `odata`      | Add data tag on View                     |
+| `ostatusbar` | Create Header with Status Bar            |
 
 ## Contributing
 
