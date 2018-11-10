@@ -1,5 +1,12 @@
 # Change Log
 
+## 0.8.0
+
+- [FIX] Fix string paramter of Selection field snippet
+- [NEW] Add 'data' tag snippet
+- [NEW] Add 'statusbar' snippet
+- [IMP] Improve README
+
 ## 0.7.1
 
 - [FIX] Fix api.multi in snippet of write method
