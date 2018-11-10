@@ -117,6 +117,7 @@ Below is a list of all available snippets.
 | `obtn`       | Add Odoo button                          |
 | `obtnbox`    | Add Button Box on View                   |
 | `ofield`     | Add Field on View                        |
+| `odata`      | Add data tag on View                     |
 
 ## Contributing
 

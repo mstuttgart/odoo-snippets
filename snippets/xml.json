@@ -402,5 +402,17 @@
             "<field name=\"${0:name}\"/>"
         ],
         "description": "Create Field"
+    },
+    "odoo_data": {
+        "prefix": "odata",
+        "body": [
+            "<odoo>",
+            "\t<data noupdate=\"${1:1}\"/>",
+            "\t\t<!-- Add you code here -->",
+            "\t\t${0}",
+            "\t</data>",
+            "</odoo>"
+        ],
+        "description": "Create Data Tag"
     }
 }
