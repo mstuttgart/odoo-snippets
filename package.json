@@ -26,12 +26,12 @@
         "xml"
     ],
     "bugs": {
-        "url": "https://github.com/mstuttgart/odoo-vscode-snippets/issues",
+        "url": "https://github.com/mstuttgart/vscode-odoo-snippets/issues",
         "email": "michellstut@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/mstuttgart/odoo-vscode-snippets"
+        "url": "https://github.com/mstuttgart/vscode-odoo-snippets"
     },
     "contributes": {
         "snippets": [{
