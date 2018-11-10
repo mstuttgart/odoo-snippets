@@ -19,5 +19,5 @@ deploy:
   script: vsce publish -p ${VSCODE}
   skip_cleanup: true
   on:
-    repo: mstuttgart/odoo-vscode-snippets
+    repo: mstuttgart/vscode-odoo-snippets
     tags: true
