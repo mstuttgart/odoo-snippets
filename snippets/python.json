@@ -193,6 +193,17 @@
         ],
         "description": "Add a method write"
     },
+    "odoo_method_unlink": {
+        "prefix": "omunlink",
+        "body": [
+            "@api.multi",
+            "def unlink(self):",
+            "\t# Add code here",
+            "\treturn super(${1:ClassName}, self).unlink()",
+            "$0"
+        ],
+        "description": "Add a method unlink"
+    },
     "odoo_method_compute": {
         "prefix": "omcomp",
         "body": [
