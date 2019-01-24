@@ -14,6 +14,19 @@ and specifies the language of the snippets.
 * You can relaunch the extension from the debug toolbar after making changes to the files listed above.
 * You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
 
+## Commit format
+
+Use commits in follow format
+
+> [TAG] My commit message
+
+This `TAG` can be:
+
+* IMP: to improvements
+* NEW: to new resource and snippets
+* FIX: to bug fixes
+* DEL: to remove anything
+
 ## Send a PR
 * Commit your changes and send us a Pull Request. 
 
