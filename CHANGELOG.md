@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.9.0
+
+- [NEW] Add unlink method snippet
+- [FIX] early close data tag (thanks [@oscars8a](https://github.com/oscars8a))
+- [IMP] Add XML version tag (thanks [@oscars8a](https://github.com/oscars8a))
+
 ## 0.8.0
 
 - [FIX] Fix string paramter of Selection field snippet
