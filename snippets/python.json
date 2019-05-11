@@ -214,6 +214,17 @@
         ],
         "description": "Add a method compute"
     },
+    "odoo_method_constrains": {
+        "prefix": "omconst",
+        "body": [
+            "@api.constrains('${1:field_name}')",
+            "def _check_${1:field_name}(self):",
+            "\tif 1==1:",
+            "\t\traise ValidationError()",
+            "$0"
+        ],
+        "description": "Add a constraint method"
+    },
     "odoo_method_onchange": {
         "prefix": "omchange",
         "body": [
