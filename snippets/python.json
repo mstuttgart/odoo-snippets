@@ -118,7 +118,7 @@
     "odoo_field_html": {
         "prefix": "ofhtml",
         "body": [
-            "${1:new_field} = fields.HTML(string='${2}')",
+            "${1:new_field} = fields.Html(string='${2}')",
             "$0"
         ],
         "description": "Add new field of type HTML"
