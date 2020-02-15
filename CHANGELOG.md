@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.0.0
+
+- [NEW] Add constrain method snippet (thanks [@elmerdpadilla](https://github.com/elmerdpadilla))
+- [FIX] HTML to Html field constructor (thanks [@oscars8a](https://github.com/oscars8a))
+
 ## 0.9.0
 
 - [NEW] Add unlink method snippet

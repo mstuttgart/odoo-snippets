@@ -141,4 +141,4 @@ See [changelog](CHANGELOG.md).
 
 This snippets are based in [odoo-pycharm-templates](https://github.com/mohamedmagdy/odoo-pycharm-templates) project.
 
-Copyright (C) 2018-2019 by Michell Stuttgart
+Copyright (C) 2018-2020 by Michell Stuttgart
