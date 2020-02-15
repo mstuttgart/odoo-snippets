@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.1
+
+- [IMP] Improve README
+
 ## 1.0.0
 
 - [NEW] Add constrain method snippet (thanks [@elmerdpadilla](https://github.com/elmerdpadilla))

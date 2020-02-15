@@ -2,7 +2,7 @@
     "name": "odoo-snippets",
     "displayName": "Odoo Code Snippets",
     "description": "This snippets can help you to develop Odoo modules faster and with no Typing Errors.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "SEE LICENSE IN LICENSE",
     "publisher": "mstuttgart",
     "author": {
