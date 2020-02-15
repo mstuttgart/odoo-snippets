@@ -59,8 +59,11 @@ This extension provide support to following languages (file extensions):
 
 Below is a list of all available snippets.
 
-### Python Snippets
+### Snippets
 
+<details>
+<summary>:black_small_square: Python Snippets</summary>
+  
 | Snippet    | Description                 |
 | ---------- | --------------------------- |
 | `oman`     | Create Odoo Manifest        |
@@ -86,8 +89,11 @@ Below is a list of all available snippets.
 | `omcomp`   | Add a method compute        |
 | `omchange` | Add a method onchange       |
 
-### XML Snippets
+</details>
 
+<details>
+<summary>:black_small_square: XML Snippets</summary>
+  
 | Snippet      | Description                              |
 | ------------ | ---------------------------------------- |
 | `oform`      | Create Form View                         |
@@ -120,6 +126,8 @@ Below is a list of all available snippets.
 | `ofield`     | Add Field on View                        |
 | `odata`      | Add data tag on View                     |
 | `ostatusbar` | Create Header with Status Bar            |
+
+</details>
 
 ## Contributing
 
