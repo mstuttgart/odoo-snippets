@@ -35,7 +35,9 @@
 
 This extension contains code snippets for [Odoo](https://www.odoo.com) to help you to develop Odoo modules faster and with no Typing Errors.
 
-All snippets follow the [OCA Maintainer Guidelines](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md) and are made to Odoo version `10.0` and `11.0`.
+All snippets follow the [OCA Maintainer Guidelines](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md) and are made to Odoo version `10.0`, `11.0` and `12.0`.
+
+To **OpenERP** snippets, please use the [TheDavidDelta's OpenERP Code Snippets](https://marketplace.visualstudio.com/items?itemName=TheDavidDelta.openerp-code-snippets) extension.
 
 ## Installation
 
@@ -59,11 +61,8 @@ This extension provide support to following languages (file extensions):
 
 Below is a list of all available snippets.
 
-### Snippets
+### Python Snippets
 
-<details>
-<summary>:black_small_square: Python Snippets</summary>
-  
 | Snippet    | Description                 |
 | ---------- | --------------------------- |
 | `oman`     | Create Odoo Manifest        |
@@ -89,11 +88,8 @@ Below is a list of all available snippets.
 | `omcomp`   | Add a method compute        |
 | `omchange` | Add a method onchange       |
 
-</details>
+### XML Snippets
 
-<details>
-<summary>:black_small_square: XML Snippets</summary>
-  
 | Snippet      | Description                              |
 | ------------ | ---------------------------------------- |
 | `oform`      | Create Form View                         |
@@ -126,8 +122,6 @@ Below is a list of all available snippets.
 | `ofield`     | Add Field on View                        |
 | `odata`      | Add data tag on View                     |
 | `ostatusbar` | Create Header with Status Bar            |
-
-</details>
 
 ## Contributing
 
