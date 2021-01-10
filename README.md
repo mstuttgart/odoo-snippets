@@ -12,13 +12,13 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-    <img src="https://vsmarketplacebadge.apphb.com/version-short/mstuttgart.odoo-snippets.svg?style=flat-square"         alt="Version">
+    <img src="https://vsmarketplacebadge.apphb.com/version-short/mstuttgart.odoo-snippets.svg?style=flat-square&color=875A7B"         alt="Version">
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-    <img src="https://vsmarketplacebadge.apphb.com/installs/mstuttgart.odoo-snippets.svg?style=flat-square" alt="Installs">
+    <img src="https://vsmarketplacebadge.apphb.com/installs/mstuttgart.odoo-snippets.svg?style=flat-square&color=875A7B" alt="Installs">
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-      <img src="https://vsmarketplacebadge.apphb.com/rating/mstuttgart.odoo-snippets.svg?style=flat-square" alt="Ratings">
+      <img src="https://vsmarketplacebadge.apphb.com/rating/mstuttgart.odoo-snippets.svg?style=flat-square&color=875A7B" alt="Ratings">
   </a>
 </p>
 
