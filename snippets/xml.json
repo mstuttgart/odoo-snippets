@@ -518,5 +518,12 @@
             "<t t-set=\"${1:var_name}\" t-value=\"${0:value}\"/>"
         ],
         "description": "Create Odoo t-set tag"
+    },
+    "odoo_template_field": {
+        "prefix": "otfield",
+        "body": [
+            "<span t-field=\"${0:field_name}\"/>"
+        ],
+        "description": "Create Odoo t-field tag"
     }
 }
