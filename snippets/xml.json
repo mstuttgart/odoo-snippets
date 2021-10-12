@@ -470,5 +470,14 @@
             "</template>"
         ],
         "description": "Create Odoo template inherit tag"
+    },
+    "odoo_template_call": {
+        "prefix": "otcall",
+        "body": [
+            "<t t-call=\"${1:module}.${2:template}\">",
+            "\t${0}",
+            "</t>"
+        ],
+        "description": "Create Odoo t-call tag"
     }
 }
