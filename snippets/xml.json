@@ -1,4 +1,14 @@
 {
+    "odoo_odoo": {
+        "prefix": "odoo",
+        "body": [
+            "<?xml version='1.0' encoding='utf-8'?>",
+            "<odoo>",
+            "\t${0}",
+            "</odoo>"
+        ],
+        "description": "Odoo tag"
+    },
     "odoo_form": {
         "prefix": "oform",
         "body": [
