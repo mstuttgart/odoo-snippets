@@ -4,7 +4,7 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
   <img src="https://github.com/mstuttgart/vscode-odoo-snippets/blob/develop/images/icon.png"></a>
   <br>
-  Odoo Visual Code Snippets
+  VSCode Odoo Snippets
   <br>
 </h1>
 
