@@ -525,5 +525,12 @@
             "<span t-field=\"${0:field_name}\"/>"
         ],
         "description": "Create Odoo t-field tag"
+    },
+    "odoo_template_image": {
+        "prefix": "otimg",
+        "body": [
+            "<img t-att-src=\"'data:image/png;base64,%s' % to_text(${0:field_name})\"/>"
+        ],
+        "description": "Create Odoo templat image tag"
     }
 }
