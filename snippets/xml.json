@@ -511,5 +511,12 @@
             "<t t-esc=\"${0:name}\"/>"
         ],
         "description": "Create Odoo t-esc tag"
+    },
+    "odoo_template_set": {
+        "prefix": "otset",
+        "body": [
+            "<t t-set=\"${1:var_name}\" t-value=\"${0:value}\"/>"
+        ],
+        "description": "Create Odoo t-set tag"
     }
 }
