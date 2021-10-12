@@ -488,5 +488,14 @@
             "</t>"
         ],
         "description": "Create Odoo t-foreach tag"
+    },
+    "odoo_template_if": {
+        "prefix": "otif",
+        "body": [
+            "<t t-if=\"${1:condition}\">",
+            "\t${0}",
+            "</t>"
+        ],
+        "description": "Create Odoo t-if tag"
     }
 }
