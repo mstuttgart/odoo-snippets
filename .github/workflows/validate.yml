@@ -1,0 +1,23 @@
+name: Valindate JSON
+
+on: [push, pull_request]
+
+jobs:
+
+  build-and-test:
+
+    runs-on: ubuntu-latest
+    name: Build and test
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: bahmutov/npm-install@v1
+
+      - name: Install JSON lint
+        run: npm install jsonlint -g
+
+      - name: Lint python snippets
+        run: jsonlint ./snippets/python.json
+
+      - name: Lint XML snippets
+        run: jsonlint ./snippets/xml.json
