@@ -406,6 +406,14 @@
         ],
         "description": "Add Button Box on View"
     },
+    "odoo_group": {
+        "prefix": "ogroup",
+        "body": [
+            "<group name=\"${1:group_name}\" string=\"${2:group_string}\">",
+            "</group>"
+        ],
+        "description": "Create Group Tag"
+    },
     "odoo_field": {
         "prefix": "ofield",
         "body": [
