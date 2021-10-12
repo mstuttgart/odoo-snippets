@@ -1,4 +1,14 @@
 {
+    "odoo_odoo": {
+        "prefix": "odoo",
+        "body": [
+            "<?xml version='1.0' encoding='utf-8'?>",
+            "<odoo>",
+            "\t${0}",
+            "</odoo>"
+        ],
+        "description": "Odoo tag"
+    },
     "odoo_form": {
         "prefix": "oform",
         "body": [
@@ -396,6 +406,14 @@
         ],
         "description": "Add Button Box on View"
     },
+    "odoo_group": {
+        "prefix": "ogroup",
+        "body": [
+            "<group name=\"${1:group_name}\" string=\"${2:group_string}\">",
+            "</group>"
+        ],
+        "description": "Create Group Tag"
+    },
     "odoo_field": {
         "prefix": "ofield",
         "body": [
@@ -406,13 +424,10 @@
     "odoo_data": {
         "prefix": "odata",
         "body": [
-            "<?xml version='1.0' encoding='utf-8'?>",
-            "<odoo>",
             "\t<data noupdate=\"${1:1}\">",
             "\t\t<!-- Add you code here -->",
             "\t\t${0}",
-            "\t</data>",
-            "</odoo>"
+            "\t</data>"
         ],
         "description": "Create Data Tag"
     },
@@ -424,5 +439,98 @@
             "</header>"
         ],
         "description": "Create Header with Status Bar"
+    },
+    "odoo_report": {
+        "prefix": "oreport",
+        "body": [
+            "<report id=\"report_${1}\"",
+            "\t\tstring=\"${2:report_name}\"",
+            "\t\tmodel=\"${3:model_name}\"",
+            "\t\treport_type=\"${4:qweb-pdf}\"",
+            "\t\tmenu=\"${5:False}\"",
+            "\t\tfile=\"${6:module_name}.${7:template_name}\"",
+            "\t\tname=\"${6:module_name}.${7:template_name}\"/>"
+        ],
+        "description": "Create report tag"
+    },
+    "odoo_template": {
+        "prefix": "otemplate",
+        "body": [
+            "<template id=\"template_${1:template_id}\" name=\"${2:Template Name}\">",
+            "\t${0}",
+            "</template>"
+        ],
+        "description": "Create Odoo template tag"
+    },
+    "odoo_template_inherit": {
+        "prefix": "otemplatei",
+        "body": [
+            "<template id=\"template_${1:template_id}\" inherit_id=\"${2:module}.${1:parent_template}\" name=\"${4:Template Name}\">",
+            "\t${0}",
+            "</template>"
+        ],
+        "description": "Create Odoo template inherit tag"
+    },
+    "odoo_template_call": {
+        "prefix": "otcall",
+        "body": [
+            "<t t-call=\"${1:module}.${2:template}\">",
+            "\t${0}",
+            "</t>"
+        ],
+        "description": "Create Odoo t-call tag"
+    },
+    "odoo_template_foreach": {
+        "prefix": "otforeach",
+        "body": [
+            "<t t-foreach=\"${1:array}\" t-as=\"${2:obj}\">",
+            "\t${0}",
+            "</t>"
+        ],
+        "description": "Create Odoo t-foreach tag"
+    },
+    "odoo_template_if": {
+        "prefix": "otif",
+        "body": [
+            "<t t-if=\"${1:condition}\">",
+            "\t${0}",
+            "</t>"
+        ],
+        "description": "Create Odoo t-if tag"
+    },
+    "odoo_template_raw": {
+        "prefix": "otraw",
+        "body": [
+            "<t t-raw=\"${0:name}\"/>"
+        ],
+        "description": "Create Odoo t-raw tag"
+    },
+    "odoo_template_esc": {
+        "prefix": "otesc",
+        "body": [
+            "<t t-esc=\"${0:name}\"/>"
+        ],
+        "description": "Create Odoo t-esc tag"
+    },
+    "odoo_template_set": {
+        "prefix": "otset",
+        "body": [
+            "<t t-set=\"${1:var_name}\" t-value=\"${0:value}\"/>"
+        ],
+        "description": "Create Odoo t-set tag"
+    },
+    "odoo_template_field": {
+        "prefix": "otfield",
+        "body": [
+            "<span t-field=\"${0:field_name}\"/>"
+        ],
+        "description": "Create Odoo t-field tag"
+    },
+    "odoo_template_image": {
+        "prefix": "otimg",
+        "body": [
+            "<img t-att-src=\"'data:image/png;base64,%s' % to_text(${0:field_name})\"/>"
+        ],
+        "description": "Create Odoo templat image tag"
     }
 }

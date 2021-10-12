@@ -1,5 +1,17 @@
 # Change Log
 
+## 2.0.0
+
+- [NEW] Add odoo snippet
+- [NEW] Add group snippet
+- [NEW] Add TransientModel snippet
+- [IMP] Simplify 'data' tag snippet
+- [NEW] Add report template tags (t-if, t-call, t-foreach, t-field e etc)
+- [NEW] Add github action support
+- [DEL] Remove travisci support
+- [IMP] Update contributing instructions and README info
+- [NEW] Add new logo
+
 ## 1.0.1
 
 - [IMP] Improve README

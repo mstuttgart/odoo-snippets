@@ -48,13 +48,34 @@
     "odoo_inherit_model": {
         "prefix": "omodi",
         "body": [
-            "from odoo import api, fields, models",
+            "from odoo import models",
             "\n\nclass ${1:ModuleName}(models.Model):",
             "\t_inherit = '${2:module.name}'",
-            "\n\tname = fields.Char(string='Name')",
             "$0"
         ],
         "description": "Inherit Existing Odoo Model"
+    },
+    "odoo_new_wizard": {
+        "prefix": "owiz",
+        "body": [
+            "from odoo import fields, models",
+            "\n\nclass ${1:ModuleName}(models.TransientModel):",
+            "\t_name = '${2:module.name}'",
+            "\t_description = '${3:New Description}'",
+            "\n\tname = fields.Char(string='Name')",
+            "$0"
+        ],
+        "description": "Create New Odoo Wizard"
+    },
+    "odoo_inherit_wizard": {
+        "prefix": "owizi",
+        "body": [
+            "from odoo import models",
+            "\n\nclass ${1:ModuleName}(models.TransientModel):",
+            "\t_inherit = '${2:module.name}'",
+            "$0"
+        ],
+        "description": "Inherit Existing Odoo Wizard"
     },
     "odoo_test_model": {
         "prefix": "omodt",
