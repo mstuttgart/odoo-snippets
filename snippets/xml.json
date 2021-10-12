@@ -479,5 +479,14 @@
             "</t>"
         ],
         "description": "Create Odoo t-call tag"
+    },
+    "odoo_template_foreach": {
+        "prefix": "otforeach",
+        "body": [
+            "<t t-foreach=\"${1:array}\" t-as=\"${2:obj}\">",
+            "\t${0}",
+            "</t>"
+        ],
+        "description": "Create Odoo t-foreach tag"
     }
 }
