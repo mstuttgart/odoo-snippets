@@ -424,13 +424,10 @@
     "odoo_data": {
         "prefix": "odata",
         "body": [
-            "<?xml version='1.0' encoding='utf-8'?>",
-            "<odoo>",
             "\t<data noupdate=\"${1:1}\">",
             "\t\t<!-- Add you code here -->",
             "\t\t${0}",
-            "\t</data>",
-            "</odoo>"
+            "\t</data>"
         ],
         "description": "Create Data Tag"
     },
