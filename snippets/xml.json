@@ -504,5 +504,12 @@
             "<t t-raw=\"${0:name}\"/>"
         ],
         "description": "Create Odoo t-raw tag"
+    },
+    "odoo_template_esc": {
+        "prefix": "otesc",
+        "body": [
+            "<t t-esc=\"${0:name}\"/>"
+        ],
+        "description": "Create Odoo t-esc tag"
     }
 }
