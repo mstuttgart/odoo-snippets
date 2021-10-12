@@ -497,5 +497,12 @@
             "</t>"
         ],
         "description": "Create Odoo t-if tag"
+    },
+    "odoo_template_raw": {
+        "prefix": "otraw",
+        "body": [
+            "<t t-raw=\"${0:name}\"/>"
+        ],
+        "description": "Create Odoo t-raw tag"
     }
 }
