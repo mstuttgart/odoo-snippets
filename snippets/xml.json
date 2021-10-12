@@ -442,5 +442,18 @@
             "</header>"
         ],
         "description": "Create Header with Status Bar"
+    },
+    "odoo_report": {
+        "prefix": "oreport",
+        "body": [
+            "<report id=\"report_${1}\"",
+            "\t\tstring=\"${2:report_name}\"",
+            "\t\tmodel=\"${3:model_name}\"",
+            "\t\treport_type=\"${4:qweb-pdf}\"",
+            "\t\tmenu=\"${5:False}\"",
+            "\t\tfile=\"${6:module_name}.${7:template_name}\"",
+            "\t\tname=\"${6:module_name}.${7:template_name}\"/>"
+        ],
+        "description": "Create report tag"
     }
 }
