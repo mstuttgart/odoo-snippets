@@ -48,10 +48,9 @@
     "odoo_inherit_model": {
         "prefix": "omodi",
         "body": [
-            "from odoo import api, fields, models",
+            "from odoo import models",
             "\n\nclass ${1:ModuleName}(models.Model):",
             "\t_inherit = '${2:module.name}'",
-            "\n\tname = fields.Char(string='Name')",
             "$0"
         ],
         "description": "Inherit Existing Odoo Model"
