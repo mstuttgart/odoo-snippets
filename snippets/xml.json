@@ -452,5 +452,14 @@
             "\t\tname=\"${6:module_name}.${7:template_name}\"/>"
         ],
         "description": "Create report tag"
+    },
+    "odoo_template": {
+        "prefix": "otemplate",
+        "body": [
+            "<template id=\"template_${1:template_id}\" name=\"${2:Template Name}\">",
+            "\t${0}",
+            "</template>"
+        ],
+        "description": "Create Odoo template tag"
     }
 }
