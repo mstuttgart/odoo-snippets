@@ -461,5 +461,14 @@
             "</template>"
         ],
         "description": "Create Odoo template tag"
+    },
+    "odoo_template_inherit": {
+        "prefix": "otemplatei",
+        "body": [
+            "<template id=\"template_${1:template_id}\" inherit_id=\"${2:module}.${1:parent_template}\" name=\"${4:Template Name}\">",
+            "\t${0}",
+            "</template>"
+        ],
+        "description": "Create Odoo template inherit tag"
     }
 }
