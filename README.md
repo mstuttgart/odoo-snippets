@@ -2,7 +2,7 @@
 <h1 align="center">
   <br>
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-  <img src="https://github.com/mstuttgart/vscode-odoo-snippets/blob/develop/images/icon.png"></a>
+  <img src="https://github.com/mstuttgart/vscode-odoo-snippets/blob/develop/images/icon.png?raw=true"></a>
   <br>
   VSCode Odoo Snippets
   <br>
