@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.1.0
+
+- [NEW] Add self.user.company_id snippet
+- [NEW] Add if-else snippet
+- [NEW] Add elif snippet
+
 ## 2.0.0
 
 - [NEW] Add odoo snippet
