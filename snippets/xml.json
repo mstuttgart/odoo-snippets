@@ -498,6 +498,30 @@
         ],
         "description": "Create Odoo t-if tag"
     },
+    "odoo_template_elif": {
+        "prefix": "otelif",
+        "body": [
+            "<t t-if=\"${1:condition}\">",
+            "\t${0}",
+            "</t>",
+            "<t t-elif=\"${2:condition}\">",
+            "</t>",
+            "<t t-else=\"\">",
+            "</t>"
+        ],
+        "description": "Create Odoo t-ifelse tag"
+    },
+    "odoo_template_if_else": {
+        "prefix": "otifelse",
+        "body": [
+            "<t t-if=\"${1:condition}\">",
+            "\t${0}",
+            "</t>",
+            "<t t-else=\"\">",
+            "</t>"
+        ],
+        "description": "Create Odoo t-if and t-else tag"
+    },
     "odoo_template_raw": {
         "prefix": "otraw",
         "body": [
