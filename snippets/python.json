@@ -255,5 +255,13 @@
             "$0"
         ],
         "description": "Add a method onchange"
+    },
+    "odoo_user_company": {
+        "prefix": "ousercomp",
+        "body": [
+            "self.env.user.company_id",
+            "$0"
+        ],
+        "description": "Get the user's company record"
     }
 }
