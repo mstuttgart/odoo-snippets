@@ -1,22 +1,22 @@
+name: Release
 on:
   push:
     tags:
       - "*"
 
-name: Deploy Extension
 jobs:
-  deploy:
+  release:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 16
+          registry-url: https://registry.npmjs.org/
 
-      - run: npm ci
+      - name: Install vsce
+        run: npm i -g vsce
 
-      - name: Publish to Visual Studio Marketplace
-        uses: HaaLeo/publish-vscode-extension@v0
-        with:
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
-          registryUrl: https://marketplace.visualstudio.com
+      - name: Publish
+        run: vsce publish -p ${{ secrets.VS_MARKETPLACE_TOKEN }}
