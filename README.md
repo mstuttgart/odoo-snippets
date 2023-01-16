@@ -15,18 +15,16 @@
     <img src="https://vsmarketplacebadges.dev/version-short/mstuttgart.odoo-snippets.png?style=for-the-badge&color=875A7B" alt="Version">
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-     <img alt="Visual Studio Marketplace Installs" src="https://vsmarketplacebadges.dev/installs-short/mstuttgart.odoo-snippets.png
-?color=875A7B&label=Installs&style=for-the-badge">
+<img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/mstuttgart.odoo-snippets?color=875A7B&style=for-the-badge">
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-    <img alt="Visual Studio Marketplace Downloads" src="https://vsmarketplacebadges.dev/downloads-short/mstuttgart.odoo-snippets.png
-?color=875A7B&label=Downloads&style=for-the-badge">
+<img alt="Visual Studio Marketplace Downloads" src="https://img.shields.io/visual-studio-marketplace/d/mstuttgart.odoo-snippets?color=875A7B&style=for-the-badge">
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-      <img src="https://vsmarketplacebadges.dev/rating-short/mstuttgart.odoo-snippets.png
-?style=for-the-badge&color=875A7B&label=Rating" alt="Ratings">
+<img alt="Visual Studio Marketplace Rating" src="https://img.shields.io/visual-studio-marketplace/r/mstuttgart.odoo-snippets?color=875A7B&style=for-the-badge">
   </a>
 </p>
+
 
 <p align="center">
   <a href="#about">About</a> |

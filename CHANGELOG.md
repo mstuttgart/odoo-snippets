@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.2.1
+
+- [NEW] Fix README badge
+
 ## 2.2.0
 
 - [NEW] Add dashboard snippet (thanks [@ww-michael](https://github.com/ww-michael))
