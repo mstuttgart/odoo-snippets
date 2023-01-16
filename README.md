@@ -12,16 +12,19 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-    <img src="https://vsmarketplacebadge.apphb.com/version-short/mstuttgart.odoo-snippets.svg?style=flat-square&color=875A7B" alt="Version">
+    <img src="https://vsmarketplacebadges.dev/version-short/mstuttgart.odoo-snippets.svg?style=for-the-badge&color=875A7B" alt="Version">
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-     <img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/mstuttgart.odoo-snippets?color=875A7B&label=Installs&style=flat-square">
+     <img alt="Visual Studio Marketplace Installs" src="https://vsmarketplacebadges.dev/installs-short/mstuttgart.odoo-snippets.svg
+?color=875A7B&label=Installs&style=for-the-badge">
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-    <img alt="Visual Studio Marketplace Downloads" src="https://img.shields.io/visual-studio-marketplace/d/mstuttgart.odoo-snippets?color=875A7B&label=Downloads&style=flat-square">
+    <img alt="Visual Studio Marketplace Downloads" src="https://vsmarketplacebadges.dev/downloads-short/mstuttgart.odoo-snippets.svg
+?color=875A7B&label=Downloads&style=for-the-badge">
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
-      <img src="https://vsmarketplacebadge.apphb.com/rating/mstuttgart.odoo-snippets.svg?style=flat-square&color=875A7B&label=Rating" alt="Ratings">
+      <img src="https://vsmarketplacebadges.dev/rating-short/mstuttgart.odoo-snippets.svg
+?style=for-the-badge&color=875A7B&label=Rating" alt="Ratings">
   </a>
 </p>
 
@@ -40,7 +43,6 @@ This extension contains code snippets for [Odoo](https://www.odoo.com) to help y
 
 All snippets follow the [OCA Maintainer Guidelines](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md) and are made to Odoo version `12.0`+.
 
-To **OpenERP** snippets, please use the [TheDavidDelta's OpenERP Code Snippets](https://marketplace.visualstudio.com/items?itemName=TheDavidDelta.openerp-code-snippets) extension.
 
 ## Installation
 
