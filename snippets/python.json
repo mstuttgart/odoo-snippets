@@ -287,6 +287,30 @@
             "from odoo.exceptions import ${1|ValidationError,RedirectWarning,AccessDenied,AccessError,CacheMiss,MissingError,UserError|}",
             "$0"
         ],
-        "description" : "Add Import to Odoo Exceptions"
+    "description" : "Add return to Action Window Close"
+    },
+    "odoo_return_actwin_close": {
+        "prefix": "oret_act_close",
+        "body": [
+            "return {'type': 'ir.actions.act_window_close'}",
+            "$0"
+        ],
+        "description" : "Add return to Action Window Close"
+    },
+    "odoo_return_actwin": {
+        "prefix": "oret_act_close",
+        "body": [
+            "return {",
+                "\t'name': ('${1:model.name}.action'),",
+                "\t'type': 'ir.actions.act_window',",
+                "\t'res_model': '${1:model.name}',",
+                "\t'view_type': 'form',",
+                "\t'view_mode': '${3:tree,form}',",
+                "\t'target': '${4|current,new,fullscreen,main,inline|}',",
+                "\t'domain': [${5}],",
+                "\t'context': {${6}},",
+            "}"
+        ],
+        "description" : "Add return to Action Window Close"
     }
 }
