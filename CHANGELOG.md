@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.2.0
+
+- [NEW] Add dashboard snippet (thanks [@ww-michael](https://github.com/ww-michael))
+- [NEW] Add import snippet
+- [NEW] Add ipdb snippet
+- [NEW] Add chatter snippet
+- [NEW] Add return action snippets
+- [IMP] Improve models and views snippets using regex
+
 ## 2.1.0
 
 - [NEW] Add self.user.company_id snippet
