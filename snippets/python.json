@@ -266,20 +266,20 @@
         "description": "Get the user's company record"
     },
     "odoo_import_odoo": {
-        "prefix": "oimpex",
+        "prefix": "oimp",
         "body": [
             "from odoo.exceptions import _, api, fields, models",
             "$0"
         ],
-        "description" : "Add Import to Odoo"
+        "description" : "Add Odoo import"
     },
     "odoo_import_odoo_test": {
-        "prefix": "oimptest",
+        "prefix": "oimpt",
         "body": [
             "from odoo.tests.common import  ${1|TransactionCase,SingleTransactionCase,SavepointCase,HttpCase|}",
             "$0"
         ],
-        "description" : "Add Import to Odoo"
+        "description" : "Add Import to Odoo Tests"
     },
     "odoo_import_odoo_exceptions": {
         "prefix": "oimper",
