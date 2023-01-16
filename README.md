@@ -61,46 +61,55 @@ This extension provide support to following languages (file extensions):
 
 * Python (.py)
 * XML (.xml)
+* CSV (.csv)
 
 Below is a list of all available snippets.
 
 <details>
 <summary>Python snippets</summary>
 
-| Snippet     | Description                       |
-| ----------- | --------------------------------- |
-| `oman`      | Create Odoo Manifest              |
-| `omod`      | Create New Odoo Model             |
-| `omodi`     | Inherit Existing Odoo Model       |
-| `owiz`      | Create New Odoo wizard            |
-| `owizi`     | Inherit Existing Odoo wizard      |
-| `omodt`     | Create Test to Odoo Model         |
-| `ofbin`     | Add new field Binary              |
-| `ofbool`    | Add new field Boolean             |
-| `ofchar`    | Add new field Char                |
-| `ofdate`    | Add new field Date                |
-| `oftime`    | Add new field DateTime            |
-| `offloat`   | Add new field Float               |
-| `ofhtml`    | Add new field HTML                |
-| `ofint`     | Add new field Integer             |
-| `oftxt`     | Add new field Text                |
-| `ofsel`     | Add new field Selection           |
-| `ofm2o`     | Add new field Many2one            |
-| `ofm2m`     | Add new field Many2many           |
-| `ofo2m`     | Add new field One2many            |
-| `omcreate`  | Add a method create               |
-| `omwrite`   | Add a method write                |
-| `omunlink`  | Add a method unlink               |
-| `omcomp`    | Add a method compute              |
-| `omchange`  | Add a method onchange             |
-| `ousercomp` | Add self.user.company_id snippets |
+| Python Snippet | Description                |
+| -------------- | -------------------------- |
+| `ipdb`         | Import Python ipdb command |
+
+
+| Odoo Snippet | Description                            |
+| ------------ | -------------------------------------- |
+| `oman`       | Create Odoo Manifest                   |
+| `omod`       | Create New Odoo Model                  |
+| `omodi`      | Inherit Existing Odoo Model            |
+| `owiz`       | Create New Odoo wizard                 |
+| `owizi`      | Inherit Existing Odoo wizard           |
+| `omodt`      | Create Test to Odoo Model              |
+| `ofbin`      | Add new field Binary                   |
+| `ofbool`     | Add new field Boolean                  |
+| `ofchar`     | Add new field Char                     |
+| `ofdate`     | Add new field Date                     |
+| `oftime`     | Add new field DateTime                 |
+| `offloat`    | Add new field Float                    |
+| `ofhtml`     | Add new field HTML                     |
+| `ofint`      | Add new field Integer                  |
+| `oftxt`      | Add new field Text                     |
+| `ofsel`      | Add new field Selection                |
+| `ofm2o`      | Add new field Many2one                 |
+| `ofm2m`      | Add new field Many2many                |
+| `ofo2m`      | Add new field One2many                 |
+| `omcreate`   | Add a method create                    |
+| `omwrite`    | Add a method write                     |
+| `omunlink`   | Add a method unlink                    |
+| `omcomp`     | Add a method compute                   |
+| `omchange`   | Add a method onchange                  |
+| `ousercomp`  | Add self.user.company_id snippets      |
+| `oimp`       | Add Odoo import snippets               |
+| `oimpt`      | Add Import to Odoo Tests snippets      |
+| `oimper`     | Add Import to Odoo Exceptions snippets |
 
 </details>
 
 <details>
 <summary>XML snippets</summary>
 
-| Snippet      | Description                              |
+| XML Snippet  | Description                              |
 | ------------ | ---------------------------------------- |
 | `odoo`       | Create Odoo Tag                          |
 | `oform`      | Create Form View                         |
@@ -133,13 +142,11 @@ Below is a list of all available snippets.
 | `ogroup`     | Add group tag on View                    |
 | `ofield`     | Add Field on View                        |
 | `odata`      | Add data tag on View                     |
+| `ochatter`   | Add chatter tag on View                  |
 
-</details>
+<!-- <summary>QWeb snippets</summary> -->
 
-<details>
-<summary>QWeb snippets</summary>
-
-| Snippet      | Description                                    |
+| Qweb Snippet | Description                                    |
 | ------------ | ---------------------------------------------- |
 | `oreport`    | Create report record on View                   |
 | `otemplate`  | Create template tag                            |
@@ -148,12 +155,23 @@ Below is a list of all available snippets.
 | `otforeach`  | Add t-foreach tag on View                      |
 | `otif`       | Add t-if tag on View                           |
 | `otelif`     | Add t-elif tag on View                         |
-| `otifelse    | Add t-if-else tag on View                      |
+| `otifelse`    | Add t-if-else tag on View                      |
 | `otraw`      | Add t-raw tag on View                          |
 | `otesc`      | Add t-esc tag on View                          |
 | `otset`      | Add t-set tag on View                          |
 | `otfield`    | Add t-field tag on View                        |
 | `otimg`      | Add img tag with `t-att-src` attribute on View |
+
+</details>
+
+<details>
+<summary>CSV snippets</summary>
+
+| CSVSnippet          | Description                     |
+| ------------------- | ------------------------------- |
+| `ocolumns`          | Create columns to access groups |
+| `odoo_access_entry` | Create entry to access groups   |
+
 
 </details>
 
@@ -169,4 +187,4 @@ See [changelog](CHANGELOG.md).
 
 This snippets are based in [odoo-pycharm-templates](https://github.com/mohamedmagdy/odoo-pycharm-templates) project.
 
-Copyright (C) 2018-2022 by Michell Stuttgart
+Copyright (C) 2018-2023 by Michell Stuttgart
