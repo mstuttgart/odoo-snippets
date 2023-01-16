@@ -575,5 +575,16 @@
             "<img t-att-src=\"'data:image/png;base64,%s' % to_text(${0:field_name})\"/>"
         ],
         "description": "Create Odoo templat image tag"
+    },
+    "odoo_chatter": {
+        "prefix": "ochatter",
+        "body": [
+            "<div class=\"oe_chatter\">",
+            "\t<field name=\"message_follower_ids\" widget=\"mail_followers\"/>",
+            "\t<field name=\"activity_ids\" widget=\"mail_activity\"/>",
+            "\t<field name=\"message_ids\" widget=\"mail_thread\"/>",
+            "</div>"
+        ],
+        "description": "Create Odoo 'oechater' tag"
     }
 }
