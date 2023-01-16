@@ -354,10 +354,8 @@
     "odoo_page": {
         "prefix": "opage",
         "body": [
-            "<page string=\"${1}\" name=\"${2}\">",
-            "\t<group>",
-            "\t\t<field name=\"${3}\"/>",
-            "\t</group>",
+            "<page name=\"${1}\" string=\"${2}\">",
+            "\t${0}",
             "</page>"
         ],
         "description": "Add new page tag"
