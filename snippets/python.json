@@ -271,5 +271,21 @@
             "$0"
         ],
         "description": "Get the user's company record"
+    },
+    "odoo_import_odoo": {
+        "prefix": "oimpex",
+        "body": [
+            "from odoo.exceptions import _, api, fields, models",
+            "$0"
+        ],
+        "description" : "Add Import to Odoo"
+    },
+    "odoo_import_odoo_exceptions": {
+        "prefix": "oimper",
+        "body": [
+            "from odoo.exceptions import ${1|ValidationError,RedirectWarning,AccessDenied,AccessError,CacheMiss,MissingError,UserError|}",
+            "$0"
+        ],
+        "description" : "Add Import to Odoo Exceptions"
     }
 }
