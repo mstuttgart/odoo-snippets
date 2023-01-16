@@ -1,4 +1,12 @@
 {
+    "ipdb_python_debugger": {
+        "prefix": "ipdb",
+        "body": [
+            "import ipdb; ipdb.set_trace()  # noqa",
+            "$0"
+        ],
+        "description": "Add ipdb debugger command"
+    },
     "odoo_manifest": {
         "prefix": "oman",
         "body": [
