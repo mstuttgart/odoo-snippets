@@ -1,0 +1,17 @@
+
+{
+    "odoo_access_columns": {
+        "prefix": "ocolumns",
+        "body": [
+            "id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink\n"
+        ],
+        "description": "Add Access Columns"
+    },
+    "odoo_access_entry": {
+        "prefix": "oaccess",
+        "body": [
+            "access_${1:model_technical_name}_${2:group_name},${3:${1/[_]/./g}}.${4:${2/[_]/./g}},model_${5:${1}},${6:group.name},${7|1,0|},${8|1,0|},${9|1,0|},${10|1,0|}\n"
+        ],
+        "description": "Add entry to Access Group"
+    }
+}

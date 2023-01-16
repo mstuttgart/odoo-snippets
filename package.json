@@ -23,7 +23,8 @@
         "odoo",
         "snippets",
         "python",
-        "xml"
+        "xml",
+        "csv"
     ],
     "bugs": {
         "url": "https://github.com/mstuttgart/vscode-odoo-snippets/issues",
@@ -42,6 +43,10 @@
             {
                 "language": "xml",
                 "path": "./snippets/xml.json"
+            },
+            {
+                "language": "csv",
+                "path": "./snippets/csv.json"
             }
         ]
     }
