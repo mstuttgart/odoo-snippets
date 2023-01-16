@@ -44,11 +44,9 @@
     "odoo_new_model": {
         "prefix": "omod",
         "body": [
-            "from odoo import api, fields, models",
-            "\n\nclass ${1:ModuleName}(models.Model):",
-            "\t_name = '${2:module.name}'",
-            "\t_description = '${3:New Description}'",
-            "\n\tname = fields.Char(string='Name')",
+            "\n\nclass ${2:${1/([a-z]+)[\\._]?/${1:/capitalize}/g}}(models.${3|Model,AbstractModel|}):",
+            "\t_name = '${1:model.technical.name}'",
+            "\t_description = '${4:${1/([a-z]+)([\\._]?)/${1:/capitalize}${2:+ }/g}}'",
             "$0"
         ],
         "description": "Create New Odoo Model"
@@ -56,9 +54,8 @@
     "odoo_inherit_model": {
         "prefix": "omodi",
         "body": [
-            "from odoo import models",
-            "\n\nclass ${1:ModuleName}(models.Model):",
-            "\t_inherit = '${2:module.name}'",
+            "\n\nclass ${2:${1/([a-z]+)[\\._]?/${1:/capitalize}/g}}(models.${3|Model,AbstractModel|}):",
+            "\t_inherit = '${1:model.technical.name}'",
             "$0"
         ],
         "description": "Inherit Existing Odoo Model"
@@ -66,11 +63,9 @@
     "odoo_new_wizard": {
         "prefix": "owiz",
         "body": [
-            "from odoo import fields, models",
-            "\n\nclass ${1:ModuleName}(models.TransientModel):",
-            "\t_name = '${2:module.name}'",
-            "\t_description = '${3:New Description}'",
-            "\n\tname = fields.Char(string='Name')",
+            "\n\nclass ${2:${1/([a-z]+)[\\._]?/${1:/capitalize}/g}}(models.TransientModel}):",
+            "\t_name = '${1:model.technical.name}'",
+            "\t_description = '${4:${1/([a-z]+)([\\._]?)/${1:/capitalize}${2:+ }/g}}'",
             "$0"
         ],
         "description": "Create New Odoo Wizard"
@@ -78,9 +73,8 @@
     "odoo_inherit_wizard": {
         "prefix": "owizi",
         "body": [
-            "from odoo import models",
-            "\n\nclass ${1:ModuleName}(models.TransientModel):",
-            "\t_inherit = '${2:module.name}'",
+            "\n\nclass ${2:${1/([a-z]+)[\\._]?/${1:/capitalize}/g}}(models.TransientModel}):",
+            "\t_inherit = '${1:model.technical.name}'",
             "$0"
         ],
         "description": "Inherit Existing Odoo Wizard"
@@ -88,8 +82,7 @@
     "odoo_test_model": {
         "prefix": "omodt",
         "body": [
-            "from odoo.tests.common import TransactionCase",
-            "\n\nclass Test${1:ModuleName}(TransactionCase):",
+            "\n\nclass Test${1:ModuleName}(models.${3|TransactionCase,SingleTransactionCase,SavepointCase,HttpCase|}):",
             "\n\tdef setUp(self):",
             "\t\tsuper(Test${1:ModuleName}, self).setUp()",
             "$0"
@@ -276,6 +269,14 @@
         "prefix": "oimpex",
         "body": [
             "from odoo.exceptions import _, api, fields, models",
+            "$0"
+        ],
+        "description" : "Add Import to Odoo"
+    },
+    "odoo_import_odoo_test": {
+        "prefix": "oimptest",
+        "body": [
+            "from odoo.tests.common import  ${1|TransactionCase,SingleTransactionCase,SavepointCase,HttpCase|}",
             "$0"
         ],
         "description" : "Add Import to Odoo"
