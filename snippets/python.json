@@ -268,7 +268,7 @@
     "odoo_import_odoo": {
         "prefix": "oimp",
         "body": [
-            "from odoo.exceptions import _, api, fields, models",
+            "from odoo import _, api, fields, models",
             "$0"
         ],
         "description" : "Add Odoo import"
