@@ -1,5 +1,11 @@
 # Change Log
 
+
+## 2.2.2
+
+- [NEW] Fix import snippet (thanks [@ww-michael](https://github.com/ww-michael))
+
+
 ## 2.2.1
 
 - [NEW] Fix README badge
