@@ -63,6 +63,10 @@ This extension provide support to following languages (file extensions):
 * XML (.xml)
 * CSV (.csv)
 
+Use `tab` to navegate in snippet positions:
+
+![Peek 2023-03-12 10-37](https://user-images.githubusercontent.com/8174740/224548353-848cce14-18d6-4c67-980d-89414c6e6a0e.gif)
+
 Below is a list of all available snippets.
 
 <details>
