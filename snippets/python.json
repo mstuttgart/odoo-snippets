@@ -82,7 +82,7 @@
     "odoo_test_model": {
         "prefix": "omodt",
         "body": [
-            "\n\nclass Test${1:ModuleName}(models.${3|TransactionCase,SingleTransactionCase,SavepointCase,HttpCase|}):",
+            "\n\nclass Test${1:ModuleName}(${3|TransactionCase,SingleTransactionCase,SavepointCase,HttpCase|}):",
             "\n\tdef setUp(self):",
             "\t\tsuper(Test${1:ModuleName}, self).setUp()",
             "$0"
