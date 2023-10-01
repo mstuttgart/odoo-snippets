@@ -140,13 +140,16 @@ Below is a list of all available snippets.
 | `omenur`     | Create New Menu Item in the Upper bar    |
 | `omenuc`     | Create New Menu Item for Categories      |
 | `omenua`     | Create New Menu Item for Actions         |
-| `ocron`      | Add a ir.cron record (11.0 version)      |
+| `ocron`      | Add a ir.cron record                     |
 | `obtn`       | Add Odoo button                          |
 | `obtnbox`    | Add Button Box on View                   |
 | `ogroup`     | Add group tag on View                    |
 | `ofield`     | Add Field on View                        |
 | `odata`      | Add data tag on View                     |
 | `ochatter`   | Add chatter tag on View                  |
+| `oaurl`      | Create action.url tag                    |
+| `oaserver`   | Create action.server tag                 |
+| `oaclient`   | Create action.client tag                 |
 
 <!-- <summary>QWeb snippets</summary> -->
 
@@ -159,7 +162,7 @@ Below is a list of all available snippets.
 | `otforeach`  | Add t-foreach tag on View                      |
 | `otif`       | Add t-if tag on View                           |
 | `otelif`     | Add t-elif tag on View                         |
-| `otifelse`    | Add t-if-else tag on View                      |
+| `otifelse`   | Add t-if-else tag on View                      |
 | `otraw`      | Add t-raw tag on View                          |
 | `otesc`      | Add t-esc tag on View                          |
 | `otset`      | Add t-set tag on View                          |

@@ -399,6 +399,7 @@
             "\t<field name=\"model_id\" ref=\"model_${2:model_name}\"/>",
             "\t<field name=\"state\">code</field>",
             "\t<field name=\"code\">model.${10:method_name}()</field>",
+            "\t<field name=\"priority\" eval=\"5\" />",
             "</record>"
         ],
         "description": "Add a ir.cron record"
@@ -586,5 +587,43 @@
             "</div>"
         ],
         "description": "Create Odoo 'oechater' tag"
+    },
+    "odoo_ir_action_act_url": {
+        "prefix": "oaurl",
+        "body": [
+            "\t<record id=\"action_${1:action_id}\" model=\"ir.actions.act_url\">",
+            "\t<field name=\"name\">${2:name}</field>",
+            "\t<field name=\"url\">/${3:url}</field>",
+            "\t<field name=\"target\">self</field>",
+            "</record>"
+        ],
+        "description": "Create action.url tag"
+    },
+    "odoo_ir_action_act_server": {
+        "prefix": "oaserver",
+        "body": [
+            "<!-- ${1:model.name} action server -->",
+            "<record id=\"action_${2:model_name}\" model=\"ir.actions.server\">",
+            "\t<field name=\"name\">${1}.action.server</field>",
+            "\t<field name=\"model_id\" ref=\"model_${1:model.name}\"/>",
+            "\t<field name=\"state\">code</field>",
+            "\t<field name=\"code\">",
+            "\t\trecord.${10:method_name}()",
+            "\t</field>",
+            "</record>"
+        ],
+        "description": "Create action.server tag"
+    },
+    "odoo_ir_action_act_client": {
+        "prefix": "oaclient",
+        "body": [
+            "<!-- ${1:model.name} action client -->",
+            "<record id=\"action_${2:model_name}\" model=\"ir.actions.client\">",
+            "\t<field name=\"name\">${2}.action.client</field>",
+            "\t<field name=\"tag\" ref=\"${3:tag_name}\"/>",
+            "\t<field name=\"context\" eval=\"{}\"/>",
+            "</record>"
+        ],
+        "description": "Create action.client tag"
     }
 }
