@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.3.0
+
+- [FIX] Test class parent (thanks [micdahl](https://github.com/micdahl))
+- [NEW] Add 'act.url' snippet
+- [NEW] Add 'act.server' snippet
+- [NEW] Add 'act.client' snippet
+
 
 ## 2.2.2
 
