@@ -4,7 +4,7 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=mstuttgart.odoo-snippets">
   <img src="https://github.com/mstuttgart/vscode-odoo-snippets/blob/main/images/icon.png?raw=true"></a>
   <br>
-  VSCode Odoo Snippets
+  Odoo Snippets
   <br>
 </h1>
 
@@ -24,7 +24,15 @@
 <img alt="Visual Studio Marketplace Rating" src="https://img.shields.io/visual-studio-marketplace/r/mstuttgart.odoo-snippets?color=875A7B&style=for-the-badge">
   </a>
 </p>
-
+<h4 align="center">Works on</h4>
+<p align="center">
+  <a href="https://neovim.io/">
+     <img alt="Neovim" src="https://img.shields.io/badge/Tools-Neovim-informational?style=for-the-badge&logo=neovim&logoColor=white&color=bed5c5">
+  </a>
+  <a href="https://code.visualstudio.com/">
+     <img alt="VsCode" src="https://img.shields.io/badge/Tools-Vscode-informational?style=for-the-badge&logo=visualstudiocode&logoColor=white&color=bed5c5">
+  </a>
+</p>
 
 <p align="center">
   <a href="#about">About</a> |
@@ -37,12 +45,13 @@
 
 ## About
 
-This extension contains code snippets for [Odoo](https://www.odoo.com) to help you to develop Odoo modules faster and with no Typing Errors.
+This extension works on [VsCode](https://code.visualstudio.com) and [Neovim](https://neovim.io/). This add code snippets for [Odoo](https://www.odoo.com) to help you to develop Odoo modules faster and with no Typing Errors on .
 
 All snippets follow the [OCA Maintainer Guidelines](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md) and are made to Odoo version `12.0`+.
 
-
 ## Installation
+
+### VsCode
 
 Launch *Quick Open*
   - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
@@ -55,6 +64,46 @@ Paste the following command and press `Enter`:
 ext install mstuttgart.odoo-snippets
 ```
 
+### Neovim
+
+This collection of snippets should work with any snippet engine that supports loading vscode snippets. Like for example:
+
+- [vim-vsnip](https://github.com/hrsh7th/vim-vsnip)
+- [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [coc-snippets](https://github.com/neoclide/coc-snippets)
+
+Use your plugin manager of choice, e.g.
+
+#### With Lazy.nvim
+
+```lua
+{
+  "mstuttgart/vscode-odoo-snippets",
+  event = "InsertEnter",
+}
+```
+
+> [!WARNING]
+> If you're using LuaSnip make sure to use `require("luasnip.loaders.from_vscode").lazy_load()`, and add
+> `mstuttgart/vscode-odoo-snippets` as a dependency for LuaSnip, otherwise snippets might not
+> be detected. If you don't use `lazy_load()` you might notice a slower startup-time
+>
+   ```lua
+   {
+      "L3MON4D3/LuaSnip",
+      dependencies = { "mstuttgart/vscode-odoo-snippets" },
+      config = function()
+        require("luasnip.loaders.from_vscode").lazy_load()
+      end,
+   }
+  ```
+
+#### With Packer
+
+```lua
+use "rafamadriz/friendly-snippets"
+```
+
 ## Usage
 
 This extension provide support to following languages (file extensions):
@@ -63,9 +112,7 @@ This extension provide support to following languages (file extensions):
 * XML (.xml)
 * CSV (.csv)
 
-Use `tab` to navegate in snippet positions:
-
-![Peek 2023-03-12 10-37](https://user-images.githubusercontent.com/8174740/224548353-848cce14-18d6-4c67-980d-89414c6e6a0e.gif)
+Use `tab` to navegate in snippet positions.
 
 Below is a list of all available snippets.
 
@@ -194,4 +241,4 @@ See [changelog](CHANGELOG.md).
 
 This snippets are based in [odoo-pycharm-templates](https://github.com/mohamedmagdy/odoo-pycharm-templates) project.
 
-Copyright (C) 2018-2023 by Michell Stuttgart
+Copyright (C) 2018-2024 by Michell Stuttgart
