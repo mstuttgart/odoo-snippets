@@ -21,3 +21,6 @@ jobs:
 
       - name: Lint XML snippets
         run: jsonlint ./snippets/xml.json
+
+      - name: Lint CSV snippets
+        run: jsonlint ./snippets/csv.json
