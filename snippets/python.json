@@ -63,9 +63,10 @@
     "odoo_new_wizard": {
         "prefix": "owiz",
         "body": [
-            "\n\nclass ${2:${1/([a-z]+)[\\._]?/${1:/capitalize}/g}}(models.TransientModel}):",
+            "class ${2:${1/([a-z0-9]+)[\\._]?/${1:/capitalize}/g}}(models.TransientModel):",
             "\t_name = '${1:model.technical.name}'",
-            "\t_description = '${4:${1/([a-z]+)([\\._]?)/${1:/capitalize}${2:+ }/g}}'",
+            "\t_description = '${3:${1/([a-z0-9]+)([\\._]?)/${1:/capitalize}${2:+ }/g}}'",
+            "",
             "$0"
         ],
         "description": "Create New Odoo Wizard"
