@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.3.1
+
+- [FIX] Fix syntax errors and improve regex logic in odoo_new_wizard snippet (thanks [Kashyap-001](https://github.com/Kashyap-001))
+
 ## 2.3.0
 
 - [FIX] Test class parent (thanks [micdahl](https://github.com/micdahl))
